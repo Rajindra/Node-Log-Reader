@@ -1,0 +1,5 @@
+1 Wael
+
+Send cmd to multiple nodes
+Eg. 	1. HIC:tegrarset x
+	2. HPB : df

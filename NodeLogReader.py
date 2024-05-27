@@ -1,13 +1,147 @@
 import os
 import sys
-from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLineEdit, QPushButton, QComboBox, QLabel, QMessageBox, QPlainTextEdit, QCheckBox
-from PyQt6.QtCore import Qt
+from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QLineEdit, QPushButton, QComboBox, QLabel, QMessageBox, QPlainTextEdit, QCheckBox, QProgressBar, QFileDialog
+from PyQt6.QtCore import Qt, QThread, pyqtSignal
 import paramiko
 from scp import SCPClient
-import threading
-import re
+import logging
+import time
 
 local_output_file_path = r'logCollector.log'
+hi_comander_path = '/home/hiluser/recovery'
+remote_script_path = '/home/hiluser/MyCommander.py'
+
+# Configure logging
+logging.basicConfig(filename='application.log', level=logging.INFO,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+
+class SSHWorker(QThread):
+    progressChanged = pyqtSignal(int)
+    statusChanged = pyqtSignal(str)
+    completed = pyqtSignal()
+
+    def __init__(self, username, linux_server_ip, node_name, cmd, payload, checkbox_checked):
+        super().__init__()
+        self.username = username
+        self.linux_server_ip = linux_server_ip
+        self.node_name = node_name
+        self.cmd = cmd
+        self.payload = payload
+        self.checkbox_checked = checkbox_checked
+
+    def run(self):
+        try:
+            self.statusChanged.emit("Connecting...")
+            with paramiko.SSHClient() as ssh:
+                ssh.load_system_host_keys()
+                ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                ssh.connect(self.linux_server_ip, username=self.username)
+                self.statusChanged.emit("Connected to the server.")
+                self.setupRig(ssh)
+
+                if self.node_name == "RIG":
+                    if self.checkbox_checked:
+                        payload_lines = self.payload.splitlines()
+                        self.executeRemote(ssh, "cd /home/hiluser")
+                        number_of_lines = len(payload_lines)
+
+                        for index, line in enumerate(payload_lines, start=1):
+                            logging.info(line)
+                            command = f'{line} >> /home/hiluser/logCollector.log'
+                            self.executeRemote(ssh, command)
+                            self.statusChanged.emit("Executing node commands")
+                            self.progressChanged.emit(int((index / number_of_lines) * 100))
+                    else:
+                        ssh_command = f'cd /home/hiluser && {self.cmd} >> /home/hiluser/logCollector.log'
+                        self.statusChanged.emit("Running RIG cmds")
+                        self.executeRemote(ssh, ssh_command)
+                        self.progressChanged.emit(100)
+                else:
+                    if self.checkbox_checked:
+                        payload_lines = self.payload.splitlines()
+                        commands = ['cd /home/hiluser']
+                        for line in payload_lines:
+                            logging.info(line)
+                            command = f'python3.8 ./MyCommander.py \'{line}\' -o /home/hiluser/logCollector.log -p {self.node_name}'
+                            commands.append(command)
+
+                        combined_command = ' && '.join(commands)
+
+                        self.statusChanged.emit("Executing node commands")
+                        self.executeRemote(ssh, combined_command)
+                    else:
+                        command = f'python3.8 ./MyCommander.py \'{self.cmd}\' -o /home/hiluser/logCollector.log -p {self.node_name}'
+                        self.statusChanged.emit("Executing node command")
+                        self.executeRemote(ssh, ssh_command)
+
+                self.downloadFile(ssh)
+                ssh.close()
+                self.statusChanged.emit("All commands executed.")
+                self.completed.emit()
+
+        except Exception as e:
+            logging.error(f"Exception: {str(e)}")
+            self.statusChanged.emit(f"Error: {str(e)}")
+            self.completed.emit()
+
+    def setupRig(self, ssh):
+        logging.info("setupRig")
+        script_file = NodeLogReader.get_resource_path("resources/MyCommander.py")
+        with SCPClient(ssh.get_transport()) as scp:
+            scp.put(script_file, remote_script_path)
+            self.statusChanged.emit("Commander File uploaded to server.")
+
+        hi_commander = NodeLogReader.get_resource_path("resources/recovery")
+        with SCPClient(ssh.get_transport()) as scp:
+            scp.put(hi_commander, hi_comander_path)
+            self.statusChanged.emit("HI commander uploaded to server.")
+
+    def executeRemote(self, ssh, ssh_command):
+        self.statusChanged.emit(f"Executing: {ssh_command[:30]}")
+        stdin, stdout, stderr = ssh.exec_command(ssh_command, get_pty=True)
+
+        if ssh_command.startswith("swut"):
+            ssh_command = ssh_command.replace("swut", "/opt/python3.8/bin/swut", 1)
+
+        while not stdout.channel.exit_status_ready():
+            time.sleep(1)
+
+        output = stdout.read().decode()
+        error = stderr.read().decode()
+
+        logging.info("Command: %s", ssh_command)
+        if output:
+            logging.info("Output: %s", output)
+        if error:
+            logging.error("Error: %s", error)
+        
+        logging.info("ExecuteRemote Done")
+
+    def downloadFile(self, ssh):
+        remote_output_file_path = '/home/hiluser/logCollector.log'
+        with SCPClient(ssh.get_transport()) as scp:
+            scp.get(remote_output_file_path, local_output_file_path)
+            self.statusChanged.emit(f"Output file copied to {local_output_file_path}")
+            self.statusChanged.emit("Log file collection complete.")
+            time.sleep(1)
+        
+        self.open_file()
+
+    def open_file(self):
+        relative_path = "logCollector.log"  # Update this path to your relative file location
+        file_name = os.path.join(os.path.dirname(__file__), relative_path)
+        
+        try:
+            # Read the contents of the file
+            with open(file_name, 'r') as file:
+                file_contents = file.read()
+            
+            # Display the file contents in the text edit widget
+            self.text_edit.setPlainText(file_contents)
+        except FileNotFoundError:
+            self.text_edit.setPlainText(f"File not found: {file_name}")
+        except Exception as e:
+            self.text_edit.setPlainText(f"An error occurred: {str(e)}")
 
 class NodeLogReader(QWidget):
     def __init__(self):
@@ -15,11 +149,10 @@ class NodeLogReader(QWidget):
         self.initializeUI()
 
     def initializeUI(self):
-        self.setWindowTitle('Node Logs Collector')
+        self.setWindowTitle('Ikman | Snabb')
         self.setGeometry(100, 100, 600, 500)
 
         self.layout = QVBoxLayout()
-
 
         self.command = QLineEdit()
         self.command.setPlaceholderText('Enter your command')
@@ -27,7 +160,7 @@ class NodeLogReader(QWidget):
 
         self.host_name = QComboBox()
         self.host_name.setEditable(True)
-        self.host_name.addItems(["gotsva1739.got.volvocars.net"])
+        self.host_name.addItems(["gotsva1648.got.volvocars.net"])
         self.layout.addWidget(self.host_name)
 
         self.user_name = QComboBox()
@@ -43,9 +176,17 @@ class NodeLogReader(QWidget):
         self.label = QLabel("Ready")
         self.layout.addWidget(self.label)
 
-        button = QPushButton('Download logs')
+        self.loadButton = QPushButton('Load PayLoad from File', self)
+        self.loadButton.clicked.connect(self.loadFile)
+        self.layout.addWidget(self.loadButton)
+
+        button = QPushButton('Run!')
         button.clicked.connect(self.onButtonClick)
         self.layout.addWidget(button)
+
+        button_swut = QPushButton('SWUT Generator')
+        button_swut.clicked.connect(self.onSwutButtonClick)
+        self.layout.addWidget(button_swut)
 
         helpButton = QPushButton('Help')
         helpButton.clicked.connect(self.showHelpDialog)
@@ -55,16 +196,48 @@ class NodeLogReader(QWidget):
         self.myCheckBox.stateChanged.connect(self.checkboxChanged)
         self.layout.addWidget(self.myCheckBox)
 
-        #commandInput = QPlainTextEdit()
-        #commandInput.setPlaceholderText("Enter your payload")
-        #self.layout.addWidget(commandInput)
         self.payload = QPlainTextEdit()
+
+        self.progressBar = QProgressBar(self)
+        self.progressBar.setMaximum(100)
+        self.layout.addWidget(self.progressBar)
 
         self.setLayout(self.layout)
 
-
     def onButtonClick(self):
-        threading.Thread(target=self.downloadLogs, daemon=True).start()
+        username = self.user_name.currentText()
+        linux_server_ip = self.host_name.currentText()
+        node_name = self.node_name.currentText()
+        cmd = self.command.text()
+        payload = self.payload.toPlainText()
+        checkbox_checked = self.myCheckBox.isChecked()
+
+        self.progressBar.setValue(0)
+
+        self.worker = SSHWorker(username, linux_server_ip, node_name, cmd, payload, checkbox_checked)
+        self.worker.progressChanged.connect(self.progressBar.setValue)
+        self.worker.statusChanged.connect(self.updateStatusLabel)
+        self.worker.completed.connect(self.onWorkerCompleted)
+        self.worker.start()
+
+    def loadFile(self):
+        # Open a file dialog to select a file
+        fileName, _ = QFileDialog.getOpenFileName(self, "Open File", "", "All Files (*);;Text Files (*.txt)")
+        
+        if fileName:
+            try:
+                # Read the file content and load it into the QTextEdit widget
+                with open(fileName, 'r') as file:
+                    fileContent = file.read()
+                    self.payload.setPlainText(fileContent)
+            except Exception as e:
+                QMessageBox.critical(self, "Error", f"Could not read file: {str(e)}")
+
+    def onWorkerCompleted(self):
+        self.updateStatusLabel("Task completed.")
+
+    def onSwutButtonClick(self):
+        logging.info("WIP : Swut Generator")
 
     def showHelpDialog(self):
         helpText = """Thank you for using Node log collector.
@@ -76,88 +249,23 @@ class NodeLogReader(QWidget):
         """
         QMessageBox.information(self, 'Help & Feedback', helpText)
 
-    def downloadLogs(self):
-        username = self.user_name.currentText()
-        linux_server_ip = self.host_name.currentText()
-        node_name = self.node_name.currentText()
-        cmd = self.command.text()
-
-        self.updateStatusLabel("Connecting...")
-
-        remote_script_path = '/home/hiluser/MyCommander.py'
-
-        try:
-            # Initialize SSH connection
-            with paramiko.SSHClient() as ssh:
-                ssh.load_system_host_keys()
-                ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-                ssh.connect(linux_server_ip, username=username)
-                self.updateStatusLabel("Connected to the server.")
-
-                if node_name == "RIG":
-                    if self.myCheckBox.isChecked():
-                        payload = self.payload.toPlainText().splitlines()
-                        ssh_command = f'export PATH=$PATH:/opt/python3.8/bin/swut && cd /home/hiluser'
-                        self.executeRemote(ssh, ssh_command)
-                        for line in payload:
-                            print(line)
-                            parts = line.split(',')
-                            #ssh_command = f'cd /home/hiluser && /opt/python3.8/bin/{cmd} >> /home/hiluser/logCollector.log'
-                            ssh_command = f'/opt/python3.8/bin/{parts[0].strip()} | tee -a /home/hiluser/logCollector.log'
-                            self.updateStatusLabel("Running RIG cmd: {parts[0]}")
-                            self.executeRemote(ssh, ssh_command, validation=parts[1])
-                    else:
-                        ssh_command = f'cd /home/hiluser && {cmd} >> /home/hiluser/logCollector.log'
-                        self.updateStatusLabel("Running RIG cmds")
-                        self.executeRemote(ssh, ssh_command)
-                else :
-                    ssh_command = f'python3.8 {remote_script_path} \'{cmd}\' -o {local_output_file_path} -p {node_name}'
-                    self.updateStatusLabel("Executing node command")
-                    self.executeRemote(ssh, ssh_command, "MyCommander.py", remote_script_path)
-
-                self.downloadFile(ssh)
-
-        except Exception as e:
-            self.updateStatusLabel(f"Error: {str(e)}")
-
     def updateStatusLabel(self, message):
+        logging.info(message)
         self.label.setText(message)
         QApplication.processEvents()
 
-    def executeRemote(self, ssh, ssh_command, script_file_name=None, script_path=None, validation=None):
-        self.updateStatusLabel(f"executeRemote: {ssh_command}")
+    def checkboxChanged(self):
+        if self.myCheckBox.isChecked():
+            self.payload.setVisible(True)
+            self.layout.addWidget(self.payload)
+            self.updateStatusLabel("Payload mode enabled")
+        else:
+            self.payload.setVisible(False)
+            self.layout.addWidget(self.payload)
+            self.updateStatusLabel("Payload mode disabled")
 
-        if script_file_name is not None and script_path is not None:
-            script_file = self.get_resource_path(script_file_name)
-            with SCPClient(ssh.get_transport()) as scp:
-                scp.put(script_file, script_path)
-                self.updateStatusLabel("File uploaded to server.")
-
-        match = False
-        stdin, stdout, stderr = ssh.exec_command(ssh_command, get_pty=True)
-
-        if validation is not None:
-            for line in iter(stdout.readline, ""):
-                #validator_pattern = {validation}
-                pattern = r"Raw response: " + validation.strip()
-                match = re.match(pattern, line.strip())
-                if match:
-                    match = True
-                    break
-
-            if match:
-                print("Verified")
-            else:
-                print("Failed")
-
-
-    def downloadFile(self, ssh):
-        remote_output_file_path = '/home/hiluser/logCollector.log'
-        with SCPClient(ssh.get_transport()) as scp:
-            scp.get(remote_output_file_path, local_output_file_path)
-            self.updateStatusLabel(f"Output file copied to {local_output_file_path}")
-
-    def get_resource_path(self, relative_path):
+    @staticmethod
+    def get_resource_path(relative_path):
         """Get the absolute path to the resource, works for dev and for PyInstaller."""
         try:
             # PyInstaller creates a temp folder and stores path in _MEIPASS
@@ -166,19 +274,6 @@ class NodeLogReader(QWidget):
             base_path = os.path.abspath(".")
 
         return os.path.join(base_path, relative_path)
-
-    def checkboxChanged(self):
-        if self.myCheckBox.isChecked():
-            print("Checkbox is checked.")
-            self.payload.setVisible(True)
-            self.layout.addWidget(self.payload)
-            self.updateStatusLabel("Payload mode enabled")
-        else:
-            print("Checkbox is unchecked.")
-            self.payload.setVisible(False)
-            self.layout.addWidget(self.payload)
-            self.updateStatusLabel("Payload mode disabled")
-
 
 def main():
     app = QApplication(sys.argv)

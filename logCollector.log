@@ -1,0 +1,1804 @@
+slog2info
+Jan 01 00:00:00.038                io_nvdvms.12294            io-nvdvms* 10065  nvdvms: VM state set to NVDVMS_INIT.
+Jan 01 00:00:00.038                io_nvdvms.12294            io-nvdvms  10065  nvdvms_nvpm2_channel_init: start nvpm waitfor() 
+Jan 01 00:00:00.039        iolauncher_resmgr.12290    iolauncher_resmgr* 10007  Register PID : 12294 
+Jan 01 00:00:00.039        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 0 - nvsciipc_init
+Jan 01 00:00:00.040                io_nvdvms.12294            io-nvdvms  10065  nvdvms_daemonize_resmgr: start nvdvms_wait_daemonize_sem()
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init* 10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 246
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  nvhvblk_246
+Jan 01 00:00:00.043        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 1 - io_nvsciipc
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 429
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  ether_ivc_429
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 433
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  ether_ivc_433
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 441
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  ether_ivc_441
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 451
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  ether_ivc_451
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 501
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  common_server_ta
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 503
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  testing_service_ta
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  warning: nvsciipc_fill_ivc_entry: qid is not defined in PCT: : 506
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  pkcs11_keystore_ta
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  nvsciipc_init: backend, entry count: 1, 104
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  nvsciipc_init: backend, entry count: 2, 118
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  nvsciipc_init: backend, entry count: 3, 24
+Jan 01 00:00:00.043            nvsciipc_init.12295        nvsciipc_init  10008  info: nvsciipc_init_dvms_init_done: set NVDVMS_INIT_DONE
+Jan 01 00:00:00.046              io_nvsciipc.12296          io-nvsciipc* 10008  io-nvsciipc thread_count: 10
+Jan 01 00:00:00.046              io_nvsciipc.12296          io-nvsciipc  10008  NvSciIpcChMemInit: cfgblob entry count: 246
+Jan 01 00:00:00.054              io_nvsciipc.12296          io-nvsciipc  10008  info: nvsciipc_dvms_init_done: set NVDVMS_INIT_DONE
+Jan 01 00:00:00.054        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 2 - epd
+Jan 01 00:00:00.060        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 3 - nvbootsanity
+Jan 01 00:00:00.062        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 4 - devv_nvhv
+Jan 01 00:00:00.063        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skip to set mem_phys - client owned mempool 75
+Jan 01 00:00:00.066                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 12298 
+Jan 01 00:00:00.068                devv_nvhv.12299            devv-nvhv* 10017  Enable NvLink mapping with mempool ID: 85
+Jan 01 00:00:00.080        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 5 - io_nvsys
+Jan 01 00:00:00.084                 io_nvsys.16394             io-nvsys* 10004  info: nvsys_resmgr_dvms_init_done: set NVDVMS_INIT_DONE
+Jan 01 00:00:00.090        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 6 - nvpm_server2
+Jan 01 00:00:00.093             nvpm_server2.16396         nvpm_server2* 10066  Prop Len: : 57 
+Jan 01 00:00:00.093             nvpm_server2.16396         nvpm_server2  10066  Ignore list size: : 5 
+Jan 01 00:00:00.096        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 7 - io_nvbpmpivc
+Jan 01 00:00:00.097             nvpm_server2.16396         nvpm_server2  10066  nvpm2_resmgr_check_abillity: client is authorized
+Jan 01 00:00:00.097                io_nvdvms.12294            io-nvdvms  10065  nvdvms_nvpm2_channel_init: nvpm2 open successful
+Jan 01 00:00:00.101        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 8 - devg_nvmap
+Jan 01 00:00:00.104               devg_nvmap.16398           devg-nvmap* 10040  NVMAP Init Start
+Jan 01 00:00:00.104        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 9 - io_nvclock
+Jan 01 00:00:00.113               devg_nvmap.16398           devg-nvmap  10040  NVMAP Init Completed
+Jan 01 00:00:00.116        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 10 - devg_nvhost
+Jan 01 00:00:00.119        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 11 - nvfsicom
+Jan 01 00:00:00.127        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 12 - devc_nvvse_safety
+Jan 01 00:00:00.135              devg_nvhost.16400          devg-nvhost* 10039  NvHost created abilities
+Jan 01 00:00:00.138        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 13 - vscd_pre_enum
+Jan 01 00:00:00.138        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 14 - vscd_pre_enum
+Jan 01 00:00:00.138        iolauncher_resmgr.12290    iolauncher_resmgr  10007  ufs instance num:1
+Jan 01 00:00:00.138        iolauncher_resmgr.12290    iolauncher_resmgr  10007  mnand instance num:7
+Jan 01 00:00:00.138        iolauncher_resmgr.12290    iolauncher_resmgr  10007  target instance num:1
+Jan 01 00:00:00.152          devb_nvhvblk.16403..0         devb-nvhvblk* 10012  vblk_sifs0: 11100, 2
+Jan 01 00:00:00.152          devb_nvhvblk.16403..0         devb-nvhvblk  10012  qID, vm_addr: 233, 0
+Jan 01 00:00:00.152          devb_nvhvblk.16403..0         devb-nvhvblk  10012  readonly, ioblk: 1, 0
+Jan 01 00:00:00.152          devb_nvhvblk.16403..0         devb-nvhvblk  10012  sifs node: sector, partition size: 512, 524288000
+Jan 01 00:00:00.152          devb_nvhvblk.16403..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.153          devb_nvhvblk.16403..0         devb-nvhvblk  10012  VSCDIo: post_init_resmgr_util, set NVDVMS_INIT_DONE, ret: 0 
+Jan 01 00:00:00.159        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 15 - devc_nvtzvault_early
+Jan 01 00:00:00.165           devc_nvtzvault.16404       devc-nvtzvault*    41  Ability created: 84 
+Jan 01 00:00:00.165        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 16 - devc_nvtzvault_early
+Jan 01 00:00:00.171           devc_nvtzvault.16405       devc-nvtzvault*    41  Ability created: 84 
+Jan 01 00:00:00.171        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 17 - devc_nvtzvault_early
+Jan 01 00:00:00.176           devc_nvtzvault.16406       devc-nvtzvault*    41  Ability created: 89 
+Jan 01 00:00:00.176        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 18 - nvpkcs11_kat
+Jan 01 00:00:00.246        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 19 - automount_sifs0
+Jan 01 00:00:00.247        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 20 - io_nvi2c
+Jan 01 00:00:00.279        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 21 - io_nvgpio
+Jan 01 00:00:00.282                io_nvgpio.16412            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 0
+Jan 01 00:00:00.283                io_nvgpio.16412            io-nvgpio  10019  Found GPIO pin: errb_lock_err_a
+Jan 01 00:00:00.283                io_nvgpio.16412            io-nvgpio  10019  Found GPIO pin: cam_err_c
+Jan 01 00:00:00.283                io_nvgpio.16412            io-nvgpio  10019  Found GPIO pin: des_pwdn_c
+Jan 01 00:00:00.283                io_nvgpio.16412            io-nvgpio  10019  Found GPIO pin count: 3
+Jan 01 00:00:00.285        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 22 - io_nvgpio
+Jan 01 00:00:00.289                io_nvgpio.16413            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 1
+Jan 01 00:00:00.290                io_nvgpio.16413            io-nvgpio  10019  No GPIO pin found on GPIO controller number: 1
+Jan 01 00:00:00.290        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 23 - io_nvgpio
+Jan 01 00:00:00.293                io_nvgpio.16414            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 2
+Jan 01 00:00:00.295                io_nvgpio.16414            io-nvgpio  10019  Found GPIO pin: uss-gpio-reset
+Jan 01 00:00:00.295                io_nvgpio.16414            io-nvgpio  10019  Found GPIO pin: bt_en
+Jan 01 00:00:00.295                io_nvgpio.16414            io-nvgpio  10019  Found GPIO pin: wl_en
+Jan 01 00:00:00.295                io_nvgpio.16414            io-nvgpio  10019  Found GPIO pin count: 3
+Jan 01 00:00:00.296        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 24 - io_nvgpio
+Jan 01 00:00:00.300                io_nvgpio.16415            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 3
+Jan 01 00:00:00.301                io_nvgpio.16415            io-nvgpio  10019  Found GPIO pin: uss-vsup-dia
+Jan 01 00:00:00.301                io_nvgpio.16415            io-nvgpio  10019  Found GPIO pin: uss-vsup-latch
+Jan 01 00:00:00.301                io_nvgpio.16415            io-nvgpio  10019  Found GPIO pin count: 2
+Jan 01 00:00:00.302        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 25 - io_nvgpio
+Jan 01 00:00:00.306                io_nvgpio.16416            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 4
+Jan 01 00:00:00.307                io_nvgpio.16416            io-nvgpio  10019  Found GPIO pin: therm_alert_state
+Jan 01 00:00:00.307                io_nvgpio.16416            io-nvgpio  10019  Found GPIO pin: ser-errb
+Jan 01 00:00:00.307                io_nvgpio.16416            io-nvgpio  10019  Found GPIO pin: cam_err_a
+Jan 01 00:00:00.307                io_nvgpio.16416            io-nvgpio  10019  Found GPIO pin: des_pwdn_a
+Jan 01 00:00:00.307                io_nvgpio.16416            io-nvgpio  10019  Found GPIO pin count: 4
+Jan 01 00:00:00.309        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 26 - io_nvgpio
+Jan 01 00:00:00.313                io_nvgpio.16417            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 5
+Jan 01 00:00:00.314                io_nvgpio.16417            io-nvgpio  10019  Found GPIO pin: errb_lock_err_c
+Jan 01 00:00:00.314                io_nvgpio.16417            io-nvgpio  10019  Found GPIO pin count: 1
+Jan 01 00:00:00.315        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 27 - io_nvgpio
+Jan 01 00:00:00.319                io_nvgpio.16418            io-nvgpio* 10019  nvgpio_parse_cmd_line: GPIO controller number: 6
+Jan 01 00:00:00.320                io_nvgpio.16418            io-nvgpio  10019  Found GPIO pin: uss-nres
+Jan 01 00:00:00.320                io_nvgpio.16418            io-nvgpio  10019  Found GPIO pin: can0_stb
+Jan 01 00:00:00.320                io_nvgpio.16418            io-nvgpio  10019  Found GPIO pin: can1_stb
+Jan 01 00:00:00.320                io_nvgpio.16418            io-nvgpio  10019  Found GPIO pin: ser-lock
+Jan 01 00:00:00.320                io_nvgpio.16418            io-nvgpio  10019  Found GPIO pin count: 4
+Jan 01 00:00:00.322        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 28 - devm_cami2c
+Jan 01 00:00:00.328              devm_cami2c.16419          devm-cami2c* 10031  devm-cami2c launched successfully
+Jan 01 00:00:00.328        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 29 - devm_cami2c
+Jan 01 00:00:00.333              devm_cami2c.16420          devm-cami2c* 10031  devm-cami2c launched successfully
+Jan 01 00:00:00.333        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 30 - devm_cami2c
+Jan 01 00:00:00.333        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --rlimit OFILE:1000 --rlimit NOCONN_NP:4000 --secpol-type devm_cami2c_2_t --wait -U 5060:5060,2342,40002,40005,40006,40052,45037,45066,45095 --if-dt-exist /sipl_devb
+Jan 01 00:00:00.333        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 31 - devm_cami2c
+Jan 01 00:00:00.333        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --rlimit OFILE:1000 --rlimit NOCONN_NP:4000 --secpol-type devm_cami2c_7_t --wait -U 5060:5060,2347,40002,40005,40006,40052,45037,45066,45095 --if-dt-exist /sipl_devb
+Jan 01 00:00:00.333        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 32 - devm_camgpio
+Jan 01 00:00:00.341             devm_camgpio.16421         devm-camgpio* 10031  devm-camgpio launched successfully
+Jan 01 00:00:00.341        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 33 - devm_camgpio
+Jan 01 00:00:00.348        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 34 - devm_camgpio
+Jan 01 00:00:00.349             devm_camgpio.16422         devm-camgpio* 10031  devm-camgpio launched successfully
+Jan 01 00:00:00.349        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --rlimit OFILE:1000 --rlimit NOCONN_NP:4000 --secpol-type devm_camgpio_2_t --wait -U 5070:5070,10005,10006,40002,40005,40006,40052,45025,45095,45112,45066,45037 --if
+Jan 01 00:00:00.349        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 35 - devm_camgpio
+Jan 01 00:00:00.349        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --rlimit OFILE:1000 --rlimit NOCONN_NP:4000 --secpol-type devm_camgpio_7_t --wait -U 5070:5070,10003,10004,40002,40005,40006,40052,45025,45095,45112,45066,45037 --if
+Jan 01 00:00:00.349        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 36 - devm_cdac
+Jan 01 00:00:00.355                devm_cdac.16423            devm-cdac* 10031  devm-cdac launched successfully
+Jan 01 00:00:00.355        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 37 - devm_cam_fsync
+Jan 01 00:00:00.363           devm_cam_fsync.16424       devm-cam-fsync* 10031  Unable to read subnode: 19 
+Jan 01 00:00:00.363           devm_cam_fsync.16424       devm-cam-fsync  10031  Failed to find frame sync group, creating default group: 14 
+Jan 01 00:00:00.363           devm_cam_fsync.16424       devm-cam-fsync  10031  devm-cam-fsync launched successfully
+Jan 01 00:00:00.363        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 38 - random
+Jan 01 00:00:00.366                   random.16425                  low*     0  qcrypto: loading configuration file '/etc/qcrypto.conf' [qcrypto_common.c(190)]
+Jan 01 00:00:00.366                random.16425..0                 slog*   700  Random is using the Fortuna PRNG
+Jan 01 00:00:00.369                   random.16425                  low      0  qcrypto: 'openssl' plugin loaded [qcrypto_plugins.c(354)]
+Jan 01 00:00:00.369                random.16425..0                 slog    700  Selecting timer as an entropy source
+Jan 01 00:00:00.369                random.16425..0                 slog    700  Registered path names
+Jan 01 00:00:00.369                random.16425..0                 slog    700  random: starting resmgr
+Jan 01 00:00:00.369                random.16425..0                 slog    700  random: Daemonizing the process
+Jan 01 00:00:00.370        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 39 - nvethmgr
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr* 10004  status
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.376                 nvethmgr.16426             nvethmgr     10  Couldn't parse DT correctly:  eqos
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr     10  Couldn't parse DT correctly:  mgbe0
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr     10  Couldn't parse DT correctly:  mgbe0
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.377                 nvethmgr.16426             nvethmgr     10  Couldn't parse DT correctly:  mgbe1
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr     10  Couldn't parse DT correctly:  mgbe2
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  status
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length got: 9
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr  10004  un-expected length expected: 5
+Jan 01 00:00:00.378                 nvethmgr.16426             nvethmgr     10  DT found for DMA channel: 4
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: index: : 0
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: dma channel: : 4
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: uid: : 3731 
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: gid: : 5041 
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: safety_gid: : 3732 
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: ifname:  mgbe3_0
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: prefix:  /sock5
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: typed mem:  /memory/nvethmgrMemory
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: server log level: : 1
+Jan 01 00:00:00.383                 nvethmgr.16426             nvethmgr     10  server_init: server log level: : 1
+Jan 01 00:00:00.391                automount.16408            automount* 10088  unique_name =  gos0-ifs2
+Jan 01 00:00:00.397                 nvethmgr.16426             nvethmgr     10  INFO: Overwriting max-tx-buf-size -> : 81788928, 81510400
+Jan 01 00:00:00.430        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 40 - devc_nvtzvault
+Jan 01 00:00:00.435           devc_nvtzvault.20503       devc-nvtzvault*    41  Ability created: 87 
+Jan 01 00:00:00.435        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 41 - devc_nvtzvault
+Jan 01 00:00:00.442           devc_nvtzvault.20523       devc-nvtzvault*    41  Ability created: 88 
+Jan 01 00:00:00.442        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 42 - devc_nvtzvault
+Jan 01 00:00:00.446           devc_nvtzvault.20524       devc-nvtzvault*    41  Ability created: 90 
+Jan 01 00:00:00.446        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 43 - devc_nvtzvault
+Jan 01 00:00:00.451           devc_nvtzvault.20525       devc-nvtzvault*    41  Ability created: 91 
+Jan 01 00:00:00.451        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 44 - devc_nvtzvault
+Jan 01 00:00:00.456           devc_nvtzvault.20526       devc-nvtzvault*    41  Ability created: 92 
+Jan 01 00:00:00.456        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 45 - devc_nvtzvault
+Jan 01 00:00:00.461           devc_nvtzvault.20527       devc-nvtzvault*    41  Ability created: 93 
+Jan 01 00:00:00.461        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 46 - devc_nvtzvault
+Jan 01 00:00:00.467           devc_nvtzvault.20528       devc-nvtzvault*    41  Ability created: 94 
+Jan 01 00:00:00.467        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 47 - devc_nvtzvault
+Jan 01 00:00:00.471           devc_nvtzvault.20529       devc-nvtzvault*    41  Ability created: 95 
+Jan 01 00:00:00.471        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 48 - devc_nvtzvault
+Jan 01 00:00:00.478           devc_nvtzvault.20530       devc-nvtzvault*    41  Ability created: 96 
+Jan 01 00:00:00.478        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 49 - devc_nvtzvault
+Jan 01 00:00:00.483           devc_nvtzvault.20531       devc-nvtzvault*    41  Ability created: 97 
+Jan 01 00:00:00.483        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 50 - devc_nvtzvault
+Jan 01 00:00:00.487           devc_nvtzvault.20532       devc-nvtzvault*    41  Ability created: 98 
+Jan 01 00:00:00.487        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 51 - devc_nvtzvault
+Jan 01 00:00:00.493           devc_nvtzvault.20533       devc-nvtzvault*    41  Ability created: 99 
+Jan 01 00:00:00.493        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 52 - devc_nvtzvault
+Jan 01 00:00:00.498           devc_nvtzvault.20534       devc-nvtzvault*    41  Ability created: 100 
+Jan 01 00:00:00.498        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 53 - devc_nvtzvault
+Jan 01 00:00:00.502           devc_nvtzvault.20535       devc-nvtzvault*    41  Ability created: 101 
+Jan 01 00:00:00.502        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 54 - devc_nvtzvault
+Jan 01 00:00:00.510           devc_nvtzvault.20536       devc-nvtzvault*    41  Ability created: 102 
+Jan 01 00:00:00.510        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 55 - devc_nvtzvault
+Jan 01 00:00:00.515           devc_nvtzvault.20537       devc-nvtzvault*    41  Ability created: 103 
+Jan 01 00:00:00.515        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 56 - devc_nvtzvault
+Jan 01 00:00:00.521           devc_nvtzvault.20538       devc-nvtzvault*    41  Ability created: 104 
+Jan 01 00:00:00.521        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 57 - devc_nvtzvault
+Jan 01 00:00:00.525           devc_nvtzvault.20539       devc-nvtzvault*    41  Ability created: 105 
+Jan 01 00:00:00.525        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 58 - devc_nvtzvault
+Jan 01 00:00:00.532           devc_nvtzvault.20540       devc-nvtzvault*    41  Ability created: 106 
+Jan 01 00:00:00.532        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 59 - devc_nvtzvault
+Jan 01 00:00:00.536           devc_nvtzvault.20541       devc-nvtzvault*    41  Ability created: 107 
+Jan 01 00:00:00.536        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 60 - devc_nvtzvault
+Jan 01 00:00:00.540           devc_nvtzvault.20542       devc-nvtzvault*    41  Ability created: 108 
+Jan 01 00:00:00.540        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 61 - devc_nvtzvault
+Jan 01 00:00:00.545           devc_nvtzvault.20543       devc-nvtzvault*    41  Ability created: 109 
+Jan 01 00:00:00.545        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 62 - devc_nvtzvault
+Jan 01 00:00:00.549           devc_nvtzvault.20544       devc-nvtzvault*    41  Ability created: 110 
+Jan 01 00:00:00.549        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 63 - devc_nvtzvault
+Jan 01 00:00:00.554           devc_nvtzvault.20545       devc-nvtzvault*    41  Ability created: 111 
+Jan 01 00:00:00.554        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 64 - devc_nvtzvault
+Jan 01 00:00:00.559           devc_nvtzvault.20546       devc-nvtzvault*    41  Ability created: 112 
+Jan 01 00:00:00.559        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 65 - devc_nvtzvault
+Jan 01 00:00:00.564           devc_nvtzvault.20547       devc-nvtzvault*    41  Ability created: 113 
+Jan 01 00:00:00.564        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 66 - devc_nvtzvault
+Jan 01 00:00:00.568           devc_nvtzvault.20548       devc-nvtzvault*    41  Ability created: 114 
+Jan 01 00:00:00.568        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 67 - devc_nvtzvault
+Jan 01 00:00:00.574           devc_nvtzvault.20549       devc-nvtzvault*    41  Ability created: 115 
+Jan 01 00:00:00.574        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 68 - devc_nvtzvault
+Jan 01 00:00:00.576                automount.16408            automount  10088  Created Done File -->  /tmp/secondary_ifs0_mount.done
+Jan 01 00:00:00.581           devc_nvtzvault.20550       devc-nvtzvault*    41  Ability created: 116 
+Jan 01 00:00:00.581        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 69 - devc_nvtzvault
+Jan 01 00:00:00.585           devc_nvtzvault.20551       devc-nvtzvault*    41  Ability created: 117 
+Jan 01 00:00:00.585        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 70 - vscd
+Jan 01 00:00:00.585        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 71 - vscd
+Jan 01 00:00:00.585        iolauncher_resmgr.12290    iolauncher_resmgr  10007  ufs instance num:1
+Jan 01 00:00:00.585        iolauncher_resmgr.12290    iolauncher_resmgr  10007  mnand instance num:7
+Jan 01 00:00:00.585        iolauncher_resmgr.12290    iolauncher_resmgr  10007  target instance num:7
+Jan 01 00:00:00.591          devb_nvhvblk.20552..0         devb-nvhvblk* 10012  vblk_mnand0: 11000, 2
+Jan 01 00:00:00.591          devb_nvhvblk.20552..0         devb-nvhvblk  10012  qID, vm_addr: 231, 0
+Jan 01 00:00:00.591          devb_nvhvblk.20552..0         devb-nvhvblk  10012  readonly, ioblk: 1, 1
+Jan 01 00:00:00.591          devb_nvhvblk.20552..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.592          devb_nvhvblk.20552..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0440,ro,priority=11
+Jan 01 00:00:00.594          devb_nvhvblk.20552..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.594          devb_nvhvblk.20552..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.600          devb_nvhvblk.20553..0         devb-nvhvblk* 10012  vblk_ufs0: 11200, 14
+Jan 01 00:00:00.600          devb_nvhvblk.20553..0         devb-nvhvblk  10012  qID, vm_addr: 247, 1
+Jan 01 00:00:00.600          devb_nvhvblk.20553..0         devb-nvhvblk  10012  readonly, ioblk: 0, 1
+Jan 01 00:00:00.601          devb_nvhvblk.20553..0         devb-nvhvblk  10012  ufs: sgsz, sgnm: 2097152, 8
+Jan 01 00:00:00.602          devb_nvhvblk.20553..0         devb-nvhvblk  10012  thread=3:3:3,cache=12517376,maxio=128,mntperms=0660,memory=/memory/vscd13,priority=11
+Jan 01 00:00:00.605          devb_nvhvblk.20553..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.605          devb_nvhvblk.20553..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.610          devb_nvhvblk.20554..0         devb-nvhvblk* 10012  vblk_mnand4: 11008, 2
+Jan 01 00:00:00.610          devb_nvhvblk.20554..0         devb-nvhvblk  10012  qID, vm_addr: 253, 0
+Jan 01 00:00:00.610          devb_nvhvblk.20554..0         devb-nvhvblk  10012  readonly, ioblk: 1, 1
+Jan 01 00:00:00.611          devb_nvhvblk.20554..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.612          devb_nvhvblk.20554..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0440,ro,priority=11
+Jan 01 00:00:00.614          devb_nvhvblk.20554..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.614          devb_nvhvblk.20554..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.619          devb_nvhvblk.20555..0         devb-nvhvblk* 10012  support erase I/F: VS_BLK_DISCARD VS_BLK_SECURE_ERASE VS_BLK_ERASE for action discard secure normal trim
+Jan 01 00:00:00.619          devb_nvhvblk.20555..0         devb-nvhvblk  10012  vblk_mnand7: 11014, 190
+Jan 01 00:00:00.619          devb_nvhvblk.20555..0         devb-nvhvblk  10012  qID, vm_addr: 48, 0
+Jan 01 00:00:00.619          devb_nvhvblk.20555..0         devb-nvhvblk  10012  readonly, ioblk: 0, 1
+Jan 01 00:00:00.619          devb_nvhvblk.20555..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.621          devb_nvhvblk.20555..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0660,priority=11
+Jan 01 00:00:00.624          devb_nvhvblk.20555..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.624          devb_nvhvblk.20555..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.629          devb_nvhvblk.20556..0         devb-nvhvblk* 10012  vblk_mnandl: 11042, 2
+Jan 01 00:00:00.629          devb_nvhvblk.20556..0         devb-nvhvblk  10012  qID, vm_addr: 229, 0
+Jan 01 00:00:00.629          devb_nvhvblk.20556..0         devb-nvhvblk  10012  readonly, ioblk: 1, 1
+Jan 01 00:00:00.629          devb_nvhvblk.20556..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.630          devb_nvhvblk.20556..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0440,ro,priority=11
+Jan 01 00:00:00.632          devb_nvhvblk.20556..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.632          devb_nvhvblk.20556..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.637          devb_nvhvblk.20557..0         devb-nvhvblk* 10012  vblk_mnandm: 11044, 2
+Jan 01 00:00:00.637          devb_nvhvblk.20557..0         devb-nvhvblk  10012  qID, vm_addr: 251, 0
+Jan 01 00:00:00.637          devb_nvhvblk.20557..0         devb-nvhvblk  10012  readonly, ioblk: 1, 1
+Jan 01 00:00:00.638          devb_nvhvblk.20557..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.639          devb_nvhvblk.20557..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0440,ro,priority=11
+Jan 01 00:00:00.641          devb_nvhvblk.20557..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.641          devb_nvhvblk.20557..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.646          devb_nvhvblk.20558..0         devb-nvhvblk* 10012  vblk_mnandn: 11046, 2
+Jan 01 00:00:00.646          devb_nvhvblk.20558..0         devb-nvhvblk  10012  qID, vm_addr: 252, 0
+Jan 01 00:00:00.646          devb_nvhvblk.20558..0         devb-nvhvblk  10012  readonly, ioblk: 1, 1
+Jan 01 00:00:00.646          devb_nvhvblk.20558..0         devb-nvhvblk  10012  mempl, arraynm: 8388608, 16
+Jan 01 00:00:00.647          devb_nvhvblk.20558..0         devb-nvhvblk  10012  thread=3:3:3,cache=10485760,maxio=1024,mntperms=0440,ro,priority=11
+Jan 01 00:00:00.649          devb_nvhvblk.20558..0         devb-nvhvblk  10012  (partition, io thread prio), (cpu_pin_cfg, irq rt, VCPU mask): 0x0000000005000b 0x00000202000200
+Jan 01 00:00:00.650          devb_nvhvblk.20558..0         devb-nvhvblk  10012  VSCDIo: server_loop, set NVDVMS_INIT_DONE
+Jan 01 00:00:00.650        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 72 - nvgpio_wait_serializer
+Jan 01 00:00:00.650        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 73 - epdaemon_wait_serializer
+Jan 01 00:00:00.650        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 74 - devg_nvgpu_igpu_mon
+Jan 01 00:00:00.651        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 75 - devg_nvgpu_igpu
+Jan 01 00:00:00.660        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 76 - devg_nvdla
+Jan 01 00:00:00.661        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 77 - devg_nvpva_v2
+Jan 01 00:00:00.664        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 78 - host1x_wait_modeset
+Jan 01 00:00:00.668        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 79 - nvmap_wait_modeset
+Jan 01 00:00:00.671        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 80 - epdaemon_wait_modeset
+Jan 01 00:00:00.672        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 81 - nvclock_wait_modeset
+Jan 01 00:00:00.672        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 82 - devm_nvcap
+Jan 01 00:00:00.672        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 83 - devm_nvcap
+Jan 01 00:00:00.673        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 84 - devm_nvcap
+Jan 01 00:00:00.673        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 85 - devm_nvcap
+Jan 01 00:00:00.689       devg_nvgpu_igpu.20560..0                 slog*     0  nvgpu:              nvgpu_ctx_clk_enable:529  [INFO] ga10b detected!
+Jan 01 00:00:00.691        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 86 - automount_rootfs
+Jan 01 00:00:00.692       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:              nvgpu_ctx_clk_enable:529  [INFO] ga10b detected!
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2* 10054  PVA R5 FW version : 0x2080203
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA compat_version: 00000000
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA revision : 00000000
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA built_on : 00000000
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA R5 boot-time(micro-secs) : 356
+Jan 01 00:00:00.694            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA R5 up-time(micro-secs) : 459
+Jan 01 00:00:00.694       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:              nvgpu_ctx_clk_enable:529  [INFO] ga10b detected!
+Jan 01 00:00:00.694        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 87 - automount_rootfs_done
+Jan 01 00:00:00.754          devb_nvhvblk.20552..2                 slog*  1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:00.754          devb_nvhvblk.20552..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:00.755          devb_nvhvblk.20552..1              default* 10012  DCMD_CAM_DATA_SET_MGNT: not support action(trim and normal): 00000000
+Jan 01 00:00:00.755          devb_nvhvblk.20552..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, and is NOT supported
+Jan 01 00:00:00.763       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:                        nvgpu_main:251  [INFO] welcome devg-nvgpu-igpu UID->10150 GID->10150
+Jan 01 00:00:00.764        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 88 - pipe
+Jan 01 00:00:00.767        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 89 - io_nvi2c_bpmp
+Jan 01 00:00:00.778            io_nvi2c_bpmp.24660        io-nvi2c-bpmp* 10006  i2c: nvdvms_task: waiting
+Jan 01 00:00:00.778            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  Start io-nvi2c-bpmp-ada main
+Jan 01 00:00:00.778            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  Start Run_Recv_Loop for BpmpI2cResmgr
+Jan 01 00:00:00.778            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: nvdvms_task: executing task
+Jan 01 00:00:00.778        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 90 - io_nvthermmon_soc
+Jan 01 00:00:00.779            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  I2c_Drop_Privileges_Cookie
+Jan 01 00:00:00.779            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  I2c_Post_Init_Cookie
+Jan 01 00:00:00.779            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: Dvms_Init_Done called
+Jan 01 00:00:00.798        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 91 - io_nvthermmon_board
+Jan 01 00:00:00.817        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 92 - plat_safety_monitor
+Jan 01 00:00:00.817        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 93 - plat_safety_monitor
+Jan 01 00:00:00.818        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 94 - mgbe3_01
+Jan 01 00:00:00.823                    iopkt.24665          main_buffer*     0  detect_armv8ce_hw: ThreadCtl() failed, err=1!
+Jan 01 00:00:00.825                    iopkt.24665          main_buffer      0  tcpip starting
+Jan 01 00:00:00.826                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 24664 
+Jan 01 00:00:00.827                    iopkt.24665          main_buffer      0  smmu support is disabled
+Jan 01 00:00:00.828                    iopkt.24665          main_buffer      0  initializing IPsec...
+Jan 01 00:00:00.828                    iopkt.24665          main_buffer      0   done
+
+Jan 01 00:00:00.828                    iopkt.24665          main_buffer      0  IPsec: Initialized Security Association Processing.
+
+Jan 01 00:00:00.829        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 95 - mgbe3_02
+Jan 01 00:00:00.835                    iopkt.24665          main_buffer      0  devnp-nvethernet.so name=mgbe3_,unit=0
+Jan 01 00:00:00.835                    iopkt.24665          main_buffer      0  mgbe3_0
+
+Jan 01 00:00:00.836             io_pkt_v6_hc.24665         io-pkt-v6-hc*    10  DT found for DMA channel: 0
+Jan 01 00:00:00.838        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 96 - mgbe3_02
+Jan 01 00:00:00.840        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 97 - mgbe3_02
+Jan 01 00:00:00.842        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 98 - mgbe3_02
+Jan 01 00:00:00.848        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 99 - mgbe3_02
+Jan 01 00:00:00.850                    iopkt.24665          main_buffer      0  lsm-pf-v6.so (null)
+Jan 01 00:00:00.850        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 100 - mgbe3_02
+Jan 01 00:00:00.852        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 101 - mgbe3_02
+Jan 01 00:00:00.860        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 102 - mgbe3_02
+Jan 01 00:00:00.863                    iopkt.24665          main_buffer      0  io-pkt dropped uid:gid(s) to: 3650:3650,3000,3731,5041,45112
+Jan 01 00:00:00.863        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 103 - csp_lan_cfg
+Jan 01 00:00:01.866        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 104 - csp_lan_cfg
+Jan 01 00:00:01.867        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 105 - mgbe31_01
+Jan 01 00:00:01.870                    iopkt.73818          main_buffer*     0  detect_armv8ce_hw: ThreadCtl() failed, err=1!
+Jan 01 00:00:01.871                    iopkt.73818          main_buffer      0  tcpip starting
+Jan 01 00:00:01.872                    iopkt.73818          main_buffer      0  smmu support is disabled
+Jan 01 00:00:01.873                    iopkt.73818          main_buffer      0  initializing IPsec...
+Jan 01 00:00:01.873                    iopkt.73818          main_buffer      0   done
+
+Jan 01 00:00:01.874                    iopkt.73818          main_buffer      0  IPsec: Initialized Security Association Processing.
+
+Jan 01 00:00:01.877        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 106 - mgbe31_02
+Jan 01 00:00:01.881                    iopkt.24665          main_buffer      0  ether_ifattach: vlan100 null if_stop
+Jan 01 00:00:01.881                    iopkt.24665          main_buffer      0  ether_ifattach: vlan100 null if_init
+Jan 01 00:00:01.886                    iopkt.73818          main_buffer      0  devnp-nvethernet.so name=mgbe3_,unit=1
+Jan 01 00:00:01.886                    iopkt.73818          main_buffer      0  mgbe3_1
+
+Jan 01 00:00:01.887                    iopkt.24665          main_buffer      0  ether_ifattach: vlan101 null if_stop
+Jan 01 00:00:01.887                    iopkt.24665          main_buffer      0  ether_ifattach: vlan101 null if_init
+Jan 01 00:00:01.888             io_pkt_v6_hc.73818         io-pkt-v6-hc*    10  DT found for DMA channel: 1
+Jan 01 00:00:01.890        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 107 - mgbe31_02
+Jan 01 00:00:01.892                    iopkt.24665          main_buffer      0  ether_ifattach: vlan102 null if_stop
+Jan 01 00:00:01.892                    iopkt.24665          main_buffer      0  ether_ifattach: vlan102 null if_init
+Jan 01 00:00:01.893        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 108 - mgbe31_02
+Jan 01 00:00:01.896        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 109 - mgbe31_02
+Jan 01 00:00:01.897                    iopkt.24665          main_buffer      0  ether_ifattach: vlan103 null if_stop
+Jan 01 00:00:01.897                    iopkt.24665          main_buffer      0  ether_ifattach: vlan103 null if_init
+Jan 01 00:00:01.905        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 110 - mgbe31_02
+Jan 01 00:00:01.909                    iopkt.73818          main_buffer      0  lsm-pf-v6.so (null)
+Jan 01 00:00:01.910        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 111 - mgbe31_02
+Jan 01 00:00:01.913        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 112 - mgbe31_02
+Jan 01 00:00:01.920        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 113 - mgbe31_02
+Jan 01 00:00:01.924                    iopkt.73818          main_buffer      0  io-pkt dropped uid:gid(s) to: 3830:3830,3000,45112
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 114 - nvsocket_routed_eqos_0
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --priority 33 --rlimit OFILE:400 --rlimit NOCONN_NP:400 --if-dt-okay /ether_eqoscl0 --if-dt-okay /ether_eqoscl0.nvsocket --wait --prewait /dev/socket -U 5002:5002,32
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 115 - nvsocket_routed_mgbe0_0
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --priority 33 --rlimit OFILE:400 --rlimit NOCONN_NP:400 --if-dt-okay /ether_mgbe0cl0 --if-dt-okay /ether_mgbe0cl0.nvsocket --wait --prewait /sock2/dev/socket -U 5012
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 116 - nvsocket_routed_mgbe1_0
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --priority 33 --rlimit OFILE:400 --rlimit NOCONN_NP:400 --if-dt-okay /ether_mgbe1cl0 --if-dt-okay /ether_mgbe1cl0.nvsocket --wait --prewait /sock3/dev/socket -U 5022
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 117 - nvsocket_routed_mgbe2_0
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped by condition - iolauncher --priority 33 --rlimit OFILE:400 --rlimit NOCONN_NP:400 --if-dt-okay /ether_mgbe2cl0 --if-dt-okay /ether_mgbe2cl0.nvsocket --wait --prewait /sock4/dev/socket -U 5032
+Jan 01 00:00:01.924        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 118 - nvsocket_routed_mgbe3_0
+Jan 01 00:00:01.928        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 119 - nop_sifs0_done
+Jan 01 00:00:01.928        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 120 - automount_debug_fs
+Jan 01 00:00:01.952          devb_nvhvblk.20554..1              default* 10012  DCMD_CAM_DATA_SET_MGNT: not support action(trim and normal): 00000000
+Jan 01 00:00:01.952          devb_nvhvblk.20554..2                 slog*  1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:01.952          devb_nvhvblk.20554..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:01.952          devb_nvhvblk.20554..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, and is NOT supported
+Jan 01 00:00:01.955        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 121 - dumper
+Jan 01 00:00:01.959               devg_nvdla.20561           devg-nvdla* 10076  device_name: /dev/nvdladebugfs//nvdla0/suspend
+Jan 01 00:00:01.960               devg_nvdla.20561           devg-nvdla  10076  device_name: /dev/nvdladebugfs//nvdla0/firmware/utilization_rate
+Jan 01 00:00:01.960               devg_nvdla.20561           devg-nvdla  10076  device_name: /dev/nvdladebugfs//nvdla0/firmware/stat_window_size
+Jan 01 00:00:01.961               devg_nvdla.20561           devg-nvdla  10076  device_name: /dev/nvdladebugfs//nvdla1/suspend
+Jan 01 00:00:01.961               devg_nvdla.20561           devg-nvdla  10076  device_name: /dev/nvdladebugfs//nvdla1/firmware/utilization_rate
+Jan 01 00:00:01.961               devg_nvdla.20561           devg-nvdla  10076  device_name: /dev/nvdladebugfs//nvdla1/firmware/stat_window_size
+Jan 01 00:00:01.967               devg_nvdla.20561           devg-nvdla  10076  welcome devg-nvdla
+Jan 01 00:00:01.967               devg_nvdla.20561           devg-nvdla  10076  UID ->: 0x00000000000d5d
+Jan 01 00:00:01.967               devg_nvdla.20561           devg-nvdla  10076  GID ->: 0x00000000000d5d
+Jan 01 00:00:01.968        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 122 - io_nvsku
+Jan 01 00:00:01.980        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 123 - devc_pty
+Jan 01 00:00:01.993        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 124 - qconn
+Jan 01 00:00:01.993        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 125 - qconn
+Jan 01 00:00:01.997                io_nvsku.249949             io-nvsku* 10009  NvSKU resmgr starting ...
+Jan 01 00:00:02.003                io_nvsku.249949             io-nvsku  10009  info: nvsku_resmgr_dvms_init_done: set NVDVMS_INIT_DONE
+Jan 01 00:00:02.008        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 126 - devc_nvser
+Jan 01 00:00:02.009        iolauncher_resmgr.12290    iolauncher_resmgr  10007  No available instance.
+Jan 01 00:00:02.009        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Skipped to launch: uart - No enabled instance exists
+Jan 01 00:00:02.009        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 127 - io_nvbpmpdebugfs_hv
+Jan 01 00:00:02.022        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 128 - dbguart
+Jan 01 00:00:02.049              devc_nvser.262243           devc-nvser*     6  DMA is disabled
+Jan 01 00:00:02.049              devc_nvser.262243           devc-nvser      6  Controller: : 0x0000000c280000
+Jan 01 00:00:02.055        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 129 - mount_csp
+Jan 01 00:00:02.070             io_nvbpmpivc.16397         io-nvbpmpivc* 10087  NvBpmpValidateXidCrc: Skip validation if error from BPMP FW
+Jan 01 00:00:02.072        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 130 - mcc_daemon
+Jan 01 00:00:02.091        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 131 - launch_debug_overlay_sh
+Jan 01 00:00:02.108        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 132 - secpolgenerate
+Jan 01 00:00:02.173          devb_nvhvblk.20553..2                 slog*  1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.173          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.174          devb_nvhvblk.20553..1              default* 10012  DCMD_CAM_DATA_SET_MGNT: not support action(trim and normal): 00000000
+Jan 01 00:00:02.174          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, and is NOT supported
+Jan 01 00:00:02.254          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.254          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.255          devb_nvhvblk.20553..1              default  10012  DCMD_CAM_DATA_SET_MGNT: not support action(trim and normal): 00000000
+Jan 01 00:00:02.255          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, and is NOT supported
+Jan 01 00:00:02.276          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.276          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.277          devb_nvhvblk.20553..1              default  10012  DCMD_CAM_DATA_SET_MGNT: not support action(trim and normal): 00000000
+Jan 01 00:00:02.277          devb_nvhvblk.20553..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, and is NOT supported
+Jan 01 00:00:02.310          devb_nvhvblk.20555..2                 slog*  1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.310          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.311          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.313          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.313          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.313          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.316          devb_nvhvblk.20555..1                  low*     0  qcrypto: loading configuration file '/etc/qcrypto.conf' [qcrypto_common.c(190)]
+Jan 01 00:00:02.319          devb_nvhvblk.20555..1                  low      0  qcrypto: 'openssl' plugin loaded [qcrypto_plugins.c(354)]
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: digest algorithm 'sha512' from plugin 'openssl'
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: crypto key algorithm 'rsa' from plugin 'openssl'
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: signature algorithm 'rsa-with-sha256' from plugin 'openssl'
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash slab with '162' initial slots
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating block slab with '162' initial slots
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating verified block bitmap with 204800 items
+Jan 01 00:00:02.319          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf block slab with '10' initial slots
+Jan 01 00:00:02.320          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf slab with '10' initial slots
+Jan 01 00:00:02.320          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash cache with '162' initial slots
+Jan 01 00:00:02.320          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash block cache with '162' initial slots
+Jan 01 00:00:02.320          devb_nvhvblk.20555..2                 slog      0  fs-qtd: qtd filesystem mounted!
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: digest algorithm 'sha512' from plugin 'openssl'
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: crypto key algorithm 'rsa' from plugin 'openssl'
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: signature algorithm 'rsa-with-sha256' from plugin 'openssl'
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash slab with '81' initial slots
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating block slab with '81' initial slots
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating verified block bitmap with 102400 items
+Jan 01 00:00:02.322          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf block slab with '10' initial slots
+Jan 01 00:00:02.323          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf slab with '10' initial slots
+Jan 01 00:00:02.323          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash cache with '81' initial slots
+Jan 01 00:00:02.323          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash block cache with '81' initial slots
+Jan 01 00:00:02.323          devb_nvhvblk.20555..2                 slog      0  fs-qtd: qtd filesystem mounted!
+Jan 01 00:00:02.324          devb_nvhvblk.20555..2                 slog      0  fs-qtd: digest algorithm 'sha512' from plugin 'openssl'
+Jan 01 00:00:02.324          devb_nvhvblk.20555..2                 slog      0  fs-qtd: crypto key algorithm 'rsa' from plugin 'openssl'
+Jan 01 00:00:02.325          devb_nvhvblk.20555..2                 slog      0  fs-qtd: signature algorithm 'rsa-with-sha256' from plugin 'openssl'
+Jan 01 00:00:02.325          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash slab with '20' initial slots
+Jan 01 00:00:02.325          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating block slab with '20' initial slots
+Jan 01 00:00:02.325          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating verified block bitmap with 2560 items
+Jan 01 00:00:02.325          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf block slab with '10' initial slots
+Jan 01 00:00:02.326          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf slab with '10' initial slots
+Jan 01 00:00:02.326          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash cache with '20' initial slots
+Jan 01 00:00:02.326          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash block cache with '20'nitial slots
+Jan 01 00:00:02.326          devb_nvhvblk.20555..2                 slog      0  fs-qtd: qtd filesystem mounted!
+Jan 01 00:00:02.327          devb_nvhvblk.20555..2                 slog      0  fs-qtd: digest algorithm 'sha512' from plugin 'openssl'
+Jan 01 00:00:02.327          devb_nvhvblk.20555..2                 slog      0  fs-qtd: crypto key algorithm 'rsa' from plugin 'openssl'
+Jan 01 00:00:02.327          devb_nvhvblk.20555..2                 slog      0  fs-qtd: signature algorithm 'rsa-with-sha256' from plugin 'openssl'
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash slab with '20' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating block slab with '20' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating verified block bitmap with 25600 items
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf block slab with '10' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating userbuf slab with '10' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash cache with '20' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: creating hash block cache with '20' initial slots
+Jan 01 00:00:02.328          devb_nvhvblk.20555..2                 slog      0  fs-qtd: qtd filesystem mounted!
+Jan 01 00:00:02.329          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.329          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.331          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.333          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.333          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.334          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.336          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.336          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.337          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.338          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Allocation strategy 0
+Jan 01 00:00:02.338          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: Use btree directory 0
+Jan 01 00:00:02.340          devb_nvhvblk.20555..2                 slog   1000  fs-qnx6: fs-qnx6: trim (0,1048576,2) was not requested, but is supported
+Jan 01 00:00:02.445        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 133 - ist_client
+Jan 01 00:00:02.447        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 134 - nvtime2mgr
+Jan 01 00:00:02.450        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 135 - nvtime_gtsd_daemon
+Jan 01 00:00:02.451        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 136 - nvtime_gtsd_daemon
+Jan 01 00:00:02.457              io_nvtime2.512097           io-nvtime2* 10015  shm memory path:
+Jan 01 00:00:02.457              io_nvtime2.512097           io-nvtime2  10015  /dev/shmem/shm_ptp_time_mgbe3
+Jan 01 00:00:02.457              io_nvtime2.512097           io-nvtime2  10015  Created nvtime_ts_collection_thread thread!!
+Jan 01 00:00:02.457              io_nvtime2.512097           io-nvtime2  10015  TSC config ptx: 1043
+Jan 01 00:00:02.458              io_nvtime2.512097           io-nvtime2  10015  Registered NvTime APIs with NvDvMS
+Jan 01 00:00:02.461        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 137 - ptpdaemon_slv
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd* 10015  Setting to interface as: mgbe3
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:kp is: : 600.000000
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:ki is: : 1.000000
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:logSyncInterval is: : -1 
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:upperFreqLimit is: : 250000000 
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:lowerFreqLimit is: : -250000000 
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Interface is:
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  mgbe3
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Inter max leap threshold in nanoseconds is: : 25000
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Lock_threshold value in ns: : 25000
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Number of pkts for stable lock state : : 5
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Max unlocked packet loss count: : 3
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Max locked packet loss count: : 3
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Number of packets to be counted in SERVO_UNLOCKED state before concluding PHC unable to sync to GTM :: 20
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:nvdvms run function callback check enabled for servo state: : 3132816078
+Jan 01 00:00:02.464             nvtime_gtsd.512101          nvtime_gtsd  10015  Config:Debug log level during packet processing, Current value: : 7
+Jan 01 00:00:02.465             nvtime_gtsd.512101          nvtime_gtsd  10015  Registered nvtime_gts with NvDvMS
+Jan 01 00:00:02.466        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 138 - nvdriveupdate_echo
+Jan 01 00:00:02.466        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 139 - nvdriveupdate_router
+Jan 01 00:00:02.478        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 140 - nvdriveupdate_bhc
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer*     0  Setting noSysClkAdj to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting noSetPtpTimeFromSys to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting passGtsToNvApi to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting syncSequenceChecking to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting maxSeqErrorCnt to 1
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting noSignallingMsg to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting syncReceiptTolerance to -2
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting syncReceiptTimeout to 3
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting grandmasterCheckPeriod to 10
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynGlobalTimePropagationDelay to 0
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynGlobalTimeTxPdelayReqPeriod to 0
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynMessageCompliance to FALSE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynTLVFollowUpTimeSubTLV to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynGlobalTimeTxCrcSecured to 1
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynRxCrcValidated to 0
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynTLVFollowUpUserDataSubTLV to TRUE
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0  Setting EthTSynTLVUserDataLength to 1
+Jan 01 00:00:02.479             ptpd_avb.512103..0          ptpd_buffer      0    Info:    Startup finished sucessfully
+Jan 01 00:00:02.483             ptpd_avb.512103..1                 slog*     0  ptpd_start_resmgr: /dev/ptpd/mgbe3_0 - Creating a fixed (2) number of threads
+Jan 01 00:00:02.485             ptpd_avb.512103..0          ptpd_buffer      0  hardware time support = 2,
+Jan 01 00:00:02.485             ptpd_avb.512103..0          ptpd_buffer      0  Skipped setPtpTimeFromSystem to TAI: 2s 485719872ns due to -e option noSetPtpTimeFromSys
+Jan 01 00:00:02.485             ptpd_avb.512103..0          ptpd_buffer      0    now in state PTP_LISTENING
+Jan 01 00:00:02.485             ptpd_avb.512103..0          ptpd_buffer      0    now in state PTP_SLAVE
+Jan 01 00:00:02.485             ptpd_avb.512103..0          ptpd_buffer      0     going to arm DelayReq timer for the first time, with initial rate: 0
+Jan 01 00:00:02.486        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 141 - nvdriveupdate_bootmgr
+Jan 01 00:00:02.493             nvtime_gtsd.512101          nvtime_gtsd  10015  INFO: State changed from SERVO_INIT --> SERVO_UNLOCKED
+Jan 01 00:00:02.493             nvtime_gtsd.512101          nvtime_gtsd  10015  nvtime_gts_servo_exec returned error :: 15 
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0  Received first Sync from Master
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0     going to arm DelayReq timer for the first time, with initial rate: 0
+Jan 01 00:00:02.493                ptpd_avb.512103             ptpd-avb* 10015  libnvtime_gts: MsgSend failed
+Jan 01 00:00:02.493                ptpd_avb.512103             ptpd-avb  10015  libnvtime_gts: reply in MsgSend:: 15 
+Jan 01 00:00:02.493                ptpd_avb.512103             ptpd-avb  10015  libnvtime_gts: MsgSend returned:: 15
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0    Info: nvtime_push_gts returns err 
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0  Skipped stepping the system clock to 137595s 610123282ns due to -e option noSysClkAdj.
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0  Skipped setPtpTimeFromSystem to TAI: 2s 493715424ns due to -e option noSetPtpTimeFromSys
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0    now in state PTP_LISTENING
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0    now in state PTP_SLAVE
+Jan 01 00:00:02.493             ptpd_avb.512103..0          ptpd_buffer      0     going to arm DelayReq timer for the first time, with initial rate: 0
+Jan 01 00:00:02.503        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 142 - nvdriveupdate_decomp
+Jan 01 00:00:02.523        iolauncher_resmgr.12290    iolauncher_resmgr  10007  iolauncher_resmgr: Executing idx 143 - vcc_scripts_launcher
+Jan 01 00:00:02.536                io_nvdvms.12294            io-nvdvms  10065  nvdvms_wait_done: got the iol_signal_done
+Jan 01 00:00:02.536                io_nvdvms.12294            io-nvdvms  10065  nvdvms_wait_done: nvdvms_post_daemonize_sem started
+Jan 01 00:00:02.536                io_nvdvms.12294            io-nvdvms  10065  nvdvms_wait_done: dvms init done wait loop started
+Jan 01 00:00:02.536                io_nvdvms.12294            io-nvdvms  10065  nvdvms_daemonize_resmgr: finish nvdvms_wait_daemonize_sem()
+Jan 01 00:00:02.536        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Creating Init done file.
+Jan 01 00:00:02.537                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 12293 
+Jan 01 00:00:02.556         dubhc_plugin.512105..0                 slog*     2  [INFO][512105][1]DULink version: 1.1.0 TAGID: 6.0.9.1-35397716 Build date: Jan 31 2024
+
+Jan 01 00:00:02.583            du_decomp.512107..0                 slog*     2  [INFO][512107][1]DULink version: 1.1.0 TAGID: 6.0.9.1-35397716 Build date: Jan 31 2024
+
+Jan 01 00:00:02.587        dulink_router.512104..0                 slog*     2  [INFO][512104][1]Load connections from DT
+
+Jan 01 00:00:02.588        dulink_router.512104..0                 slog      2  [INFO][512104][1]Total 6 connections loaded
+
+Jan 01 00:00:02.588        dulink_router.512104..0                 slog      2  [INFO][512104][1]Initializing DU Link Router at path //gos-a
+
+Jan 01 00:00:02.588        dulink_router.512104..0                 slog      2  [INFO][512104][1]DULink version: 1.1.0 TAGID: 6.0.9.1-35397716 Build date: Jan 31 2024
+
+Jan 01 00:00:02.588        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening UPSTREAM connection to /
+
+Jan 01 00:00:02.591        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110000 Name nvdriveupdate_ivc_1 P2P connection established
+
+Jan 01 00:00:02.592        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening DOWNSTREAM connection to /gos-a/bootmgr
+
+Jan 01 00:00:02.597        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening DOWNSTREAM connection to /gos-a/bhc
+
+Jan 01 00:00:02.598         dubhc_plugin.512105..0                 slog      2  [INFO][512105][6]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_b_1 got reset event
+
+Jan 01 00:00:02.598        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110002 Name nvdu_gos_ipc_b_0 got reset event
+
+Jan 01 00:00:02.598         dubhc_plugin.512105..0                 slog      2  [INFO][512105][6]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_b_1 P2P connection established
+
+Jan 01 00:00:02.598        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110002 Name nvdu_gos_ipc_b_0 P2P connection established
+
+Jan 01 00:00:02.599         dubhc_plugin.512105..0                 slog      2  [INFO][512105][8]Remote node /gos-a is connected
+
+Jan 01 00:00:02.599        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening DOWNSTREAM connection to /gos-a/decomp
+
+Jan 01 00:00:02.599        dulink_router.512104..0                 slog      2  [INFO][512104][8]Remote node / is connected
+
+Jan 01 00:00:02.600            du_decomp.512107..0                 slog      2  [INFO][512107][6]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_c_1 got reset event
+
+Jan 01 00:00:02.601        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110003 Name nvdu_gos_ipc_c_0 got reset event
+
+Jan 01 00:00:02.602        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110003 Name nvdu_gos_ipc_c_0 P2P connection established
+
+Jan 01 00:00:02.602            du_decomp.512107..0                 slog      2  [INFO][512107][6]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_c_1 P2P connection established
+
+Jan 01 00:00:02.603            du_decomp.512107..0                 slog      2  [INFO][512107][8]Remote node /gos-a is connected
+
+Jan 01 00:00:02.603        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening DOWNSTREAM connection to /gos-a/du-client
+
+Jan 01 00:00:02.603        dulink_router.512104..0                 slog      2  [INFO][512104][12]Remote node /gos-a/bhc is connected
+
+Jan 01 00:00:02.607        dulink_router.512104..0                 slog      2  [INFO][512104][1]Opening DOWNSTREAM connection to /gos-a/content
+
+Jan 01 00:00:02.607              bootmgr.512106..1                 slog*     2  [INFO][512106][1]du_mcc init
+
+Jan 01 00:00:02.607              bootmgr.512106..1                 slog      2  [INFO][512106][1]DU_MCC_Init
+
+Jan 01 00:00:02.607        dulink_router.512104..0                 slog      2  [INFO][512104][14]Remote node /gos-a/decomp is connected
+
+Jan 01 00:00:02.608        dulink_router.512104..0                 slog      2  [INFO][512104][1]DU Link Router running...
+
+Jan 01 00:00:02.617             ptpd_avb.512103..0          ptpd_buffer      0  Received first Sync from Master
+Jan 01 00:00:02.617             ptpd_avb.512103..0          ptpd_buffer      0     going to arm DelayReq timer for the first time, with initial rate: 0
+Jan 01 00:00:02.635                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:02.635                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:02.635                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:02.645            du_decomp.512107..0                 slog      2  [INFO][512107][1]Decompressor: RESTORE_CTX state
+
+Jan 01 00:00:02.645            du_decomp.512107..0                 slog      2  [INFO][512107][1]Decompressor: Waiting on non-DORMANT to restore context
+
+Jan 01 00:00:02.650                   console.4099                  out*     0  [540780] All necessary var directories are present
+Jan 01 00:00:02.746                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:02.746                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:02.746                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:02.857                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:02.857                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:02.857                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:02.887                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 557165 
+Jan 01 00:00:02.887        iolauncher_resmgr.12290    iolauncher_resmgr  10007  Opened by : 557165 
+Jan 01 00:00:02.887        iolauncher_resmgr.12290    iolauncher_resmgr  10007  but already registerd : 12294 
+Jan 01 00:00:02.968                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:02.968                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:02.968                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:03.080                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:03.080                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:03.080                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:03.109              bootmgr.512106..1                 slog      2  [INFO][512106][1]Plugin gos-b does not have entry in this VM
+
+Jan 01 00:00:03.109              bootmgr.512106..1                 slog      2  [INFO][512106][1]DULink version: 1.1.0 TAGID: 6.0.9.1-35397716 Build date: Jan 31 2024
+
+Jan 01 00:00:03.110              bootmgr.512106..1                 slog      2  [INFO][512106][8]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_a_1 got reset event
+
+Jan 01 00:00:03.110        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110001 Name nvdu_gos_ipc_a_0 got reset event
+
+Jan 01 00:00:03.110        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110001 Name nvdu_gos_ipc_a_0 P2P connection established
+
+Jan 01 00:00:03.110              bootmgr.512106..1                 slog      2  [INFO][512106][8]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_a_1 P2P connection established
+
+Jan 01 00:00:03.111        dulink_router.512104..0                 slog      2  [INFO][512104][10]Remote node /gos-a/bootmgr is connected
+
+Jan 01 00:00:03.111              bootmgr.512106..1                 slog      2  [INFO][512106][10]Remote node /gos-a is connected
+
+Jan 01 00:00:03.118              io_nvtime2.512097           io-nvtime2  10015  TSC sync debounce in progress for sec: : 0
+Jan 01 00:00:03.118              io_nvtime2.512097           io-nvtime2  10015  Triggered PTP to TSC sync, reg value: 0x000014
+Jan 01 00:00:03.118             nvtime_gtsd.512101          nvtime_gtsd  10015  INFO: State changed from SERVO_UNLOCKED --> SERVO_LOCKED
+Jan 01 00:00:03.169              bootmgr.512106..1                 slog      2  [INFO][512106][1]Installer IDLE state
+
+Jan 01 00:00:03.169              bootmgr.512106..1                 slog      2  [INFO][512106][1]Installer RESTORE_CTX state
+
+Jan 01 00:00:03.169              bootmgr.512106..1                 slog      2  [INFO][512106][1]Waiting on non-DORMANT to restore context
+
+Jan 01 00:00:03.193                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:03.193                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:03.193                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:03.305                io_nvdvms.12294            io-nvdvms  10065  nvdvms_crosscheck_one: process not marked INIT_DONE, proc:
+Jan 01 00:00:03.305                io_nvdvms.12294            io-nvdvms  10065  bootmgr
+Jan 01 00:00:03.305                io_nvdvms.12294            io-nvdvms  10065  duBootmgr: 512106 
+Jan 01 00:00:03.415                io_nvdvms.12294            io-nvdvms  10065  nvdvms: VM state set to NVDVMS_INIT_DONE.
+Jan 01 00:00:03.415                io_nvdvms.12294            io-nvdvms  10065  nvdvms_wait_for_init_done: All DOS processes INIT DONE
+Jan 01 00:00:03.459              io_nvtime2.512097           io-nvtime2  10015  TSC sync debounce in progress for sec: : 1
+Jan 01 00:00:04.461              io_nvtime2.512097           io-nvtime2  10015  TSC sync debounce in progress for sec: : 2
+Jan 01 00:00:04.461              io_nvtime2.512097           io-nvtime2  10015  Lock lost during TSC sync debounce. tsc_lock_status reg value:: 0x000035
+Jan 01 00:00:04.461              io_nvtime2.512097           io-nvtime2  10015  Triggered PTP to TSC sync, reg value: 0x000035
+Jan 01 00:00:05.463              io_nvtime2.512097           io-nvtime2  10015  TSC sync debounce in progress for sec: : 3
+Jan 01 00:00:06.013 uds_diagnostic_server.684140..0 uds_diagnostic_server* 10061  INFO: Permission denied when opening TSEC-AES engine - TSEC safety token will be unavailable
+Jan 01 00:00:06.014 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening FSI_DYNAMIC_1 keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_4_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_5_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_5_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_6_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_6_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.015 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_7_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_7_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_8_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_8_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_9_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_9_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_10_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.016 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_10_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_11_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_11_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_12_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_12_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_13_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.017 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_13_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.018 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_14_SAFE keystore - this token will be unavailable
+Jan 01 00:00:06.018 uds_diagnostic_server.684140..0 uds_diagnostic_server  10061  INFO: Permission denied when opening CCPLEX_14_DYNAMIC keystore - this token will be unavailable
+Jan 01 00:00:06.025 uds_diagnostic_server.684140..1                 slog*     2  [INFO][684140][1]DULink version: 1.1.0 TAGID: 6.0.9.1-35397716 Build date: Jan 31 2024
+
+Jan 01 00:00:06.026 uds_diagnostic_server.684140..1                 slog      2  [INFO][684140][8]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_d_1 got reset event
+
+Jan 01 00:00:06.026        dulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110004 Name nvdu_gos_ipc_d_0 got reset event
+
+Jan 01 00:00:06.026  ulink_router.512104..0                 slog      2  [INFO][512104][6]CONMGR-NVSCI: handle Id 0x110004 Name nvdu_gos_ipc_d_0 P2P connection established
+
+Jan 01 00:00:06.026 uds_diagnostic_server.684140..1                 slog      2  [INFO][684140][8]CONMGR-NVSCI: handle Id 0x110000 Name nvdu_gos_ipc_d_1 P2P connection established
+
+Jan 01 00:00:06.027 uds_diagnostic_server.684140..1                 slog      2  [INFO][684140][8]CONMGR-NVSCI: handle Id 0x110001 Name nvdriveupdate_ivc_2 got reset event
+
+Jan 01 00:00:06.027 uds_diagnostic_server.684140..1                 slog      2  [INFO][684140][8]CONMGR-NVSCI: handle Id 0x110001 Name nvdriveupdate_ivc_2 P2P connection established
+
+Jan 01 00:00:06.027        dulink_router.512104..0                 slog      2  [INFO][512104][16]Remote node /gos-a/du-client is connected
+
+Jan 01 00:00:06.027 uds_diagnostic_server.684140..1                 slog      2  [INFO][684140][10]Remote node /gos-a is connected
+
+Jan 01 00:00:06.111            du_decomp.512107..0                 slog      2  [INFO][512107][2]Wake up Decompressor Resume Pending
+
+Jan 01 00:00:06.122            du_decomp.512107..0                 slog      2  [INFO][512107][1]Decompressor: Empty context found
+
+Jan 01 00:00:06.123            du_decomp.512107..0                 slog      2  [INFO][512107][1]Decompressor: IDLE state
+
+Jan 01 00:00:06.125              bootmgr.512106..1                 slog      2  [INFO][512106][1]Empty context found
+
+Jan 01 00:00:06.129              bootmgr.512106..1                 slog      2  [INFO][512106][1]Installer IDLE state
+
+Jan 01 00:00:06.184 csp_someip_adapter_service.684149..0 csp_someip_adapter_service*    10  nvsocket_init: setrlimit failed!: 301
+Jan 01 00:00:06.321 csp_someip_adapter_service.684151..0 csp_someip_adapter_service*    10  nvsocket_init: setrlimit failed!: 301
+Jan 01 00:00:06.457             nvtime_gtsd.512101          nvtime_gtsd  10015  nvtime_gts_run() called
+Jan 01 00:00:06.457             nvtime_gtsd.512101          nvtime_gtsd  10015  nvtime_gts_run() successful
+Jan 01 00:00:06.457                io_nvdvms.12294            io-nvdvms  10065  nvdvms: VM state set to NVDVMS_OPERATIONAL_START.
+Jan 01 00:00:06.458                io_nvsku.249949             io-nvsku  10009  info: nvsku_resmgr_dvms_run: 
+Jan 01 00:00:06.460            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: Dvms_Run called
+Jan 01 00:00:06.464              io_nvtime2.512097           io-nvtime2  10015  TSC sync debounce in progress for sec: : 4
+Jan 01 00:00:06.465          devb_nvhvblk.20558..0         devb-nvhvblk  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20556..0         devb-nvhvblk  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20557..0         devb-nvhvblk  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20552..1              default  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20554..1              default  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20553..1              default  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.466          devb_nvhvblk.20555..1              default* 10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.468                io_nvgpio.16413            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16417            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16415            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16412            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16414            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16416            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.468                io_nvgpio.16418            io-nvgpio  10019  nvgpio_dvms_run: done
+Jan 01 00:00:06.469               io_nvclock.16399           io-nvclock* 10020  nvclock_dvms_run: done
+Jan 01 00:00:06.469                 io_nvsys.16394             io-nvsys  10004  info: nvsys_resmgr_dvms_run: 
+Jan 01 00:00:06.469          devb_nvhvblk.16403..0         devb-nvhvblk  10012  VSCDIo: dvms_run, ret: 0 
+Jan 01 00:00:06.470              io_nvsciipc.12296          io-nvsciipc  10008  info: nvsciipc_dvms_run: NVDVMS_OPERATIONAL
+Jan 01 00:00:06.470            nvsciipc_init.12295        nvsciipc_init  10008  info: nvsciipc_init_dvms_run: NVDVMS_OPERATIONAL
+Jan 01 00:00:06.470                io_nvdvms.12294            io-nvdvms  10065  nvdvms: VM state set to NVDVMS_OPERATIONAL.
+Jan 01 00:00:32.871            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: nvdvms_pkg.check_init_api failed
+Jan 01 00:00:32.871            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: Open_Handler: Not Init state
+Jan 01 00:00:32.875               devg_nvmap.16398           devg-nvmap  10040  nvmap_ioctl: Invalid interface access for cmd : -1071119088 
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  NvRmMemHandleAllocAttr failed: 326 
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Memory allocation failed
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to allocate segment memory
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Writing bin_info failed
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD ELF
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD VPU ELF
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD ELF
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  failed to initialize PVA PFSD task data
+Jan 01 00:00:32.875            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA CTRL: (FAIL) allocate client context
+Jan 01 00:00:32.878            devg_nvdla.20561..0                 slog*     0  nvdla: nvdla_queue_release_handler: Invalid API state
+Jan 01 00:00:32.878   devg_nvgpu_igpu_mon.20559..0                 slog*     0  nvgpu_mon:         nvgpu_mon_diag_ocb_calloc:143  [ERR ] GPU batched diagnostics init not supported in operational state.
+Jan 01 00:00:32.878   devg_nvgpu_igpu_mon.20559..0                 slog      0  nvgpu_mon:         nvgpu_mon_diag_ocb_calloc:144  [ERR ] Current state: 4
+Jan 01 00:00:32.880            devg_nvdla.20561..0                 slog      0  nvdla: nvdla_queue_release_handler: Invalid API state
+Jan 01 00:00:32.880       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:  nvgpu_vm_state_operational_check:44   [INFO] Request cannot be fulfilled
+Jan 01 00:00:32.880       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:              gk20a_tsg_ocb_calloc:131  [ERR ] VM state check failed
+Jan 01 00:00:32.881       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:  nvgpu_vm_state_operational_check:44   [INFO] Request cannot be fulfilled
+Jan 01 00:00:32.881       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:               nvgpu_as_ocb_calloc:85   [ERR ] VM state check failed
+Jan 01 00:00:32.883       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:  nvgpu_vm_state_operational_check:44   [INFO] Request cannot be fulfilled
+Jan 01 00:00:32.883       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:             gk20a_ctrl_ocb_calloc:62   [ERR ] VM state check failed: abort
+Jan 01 00:00:32.884       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:  nvgpu_vm_state_operational_check:44   [INFO] Request cannot be fulfilled
+Jan 01 00:00:32.884       devg_nvgpu_igpu.20560..0                 slog      0  nvgpu:                  nvgpu_ocb_calloc:155  [ERR ] VM state check failed
+Jan 01 00:00:32.888                  dumper.663666                 slog*     0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.890                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.892                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.894                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.894                  dumper.663666                 slog      0  run fault pid 20560 tid 5 signal 11 code 2 ip 0x422f40 proc/boot/devg-nvgpu-igpu
+Jan 01 00:00:32.895                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.897                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.899                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.900                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.902                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.904                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.906                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.907                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.909                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.911                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.912                  dumper.663666                 slog      0  dlopen:libbacktrace.so.1:Library cannot be found
+
+Jan 01 00:00:32.913                  dumper.663666                 slog      0  pid 20560 core file created at /var/coredumps/devg-nvgpu-igpu.core
+Jan 01 00:00:33.124               io_nvclock.16399           io-nvclock  10020  nvclock_close: Not permitted in the VM state of: 4 
+Jan 01 00:00:33.124   devg_nvgpu_igpu_mon.20559..0                 slog      0  nvgpu_mon:             nvgpu_mon_init_resmgr:390  [ERR ] dispatch_handler error
+Jan 01 00:00:33.124   devg_nvgpu_igpu_mon.20559..0                 slog      0  nvgpu_mon: nvgpu_mon_report_err_safety_services:105  [ERR ] Reported err (0x7ff) to Safety_Services
+Jan 01 00:00:33.125                      Epd.12297                  Epd* 10087  EPD: Open Invalid VM state Pid:: 20559 
+Jan 01 00:00:33.125      devg_nvgpu_igpu_mon.20559  devg-nvgpu-igpu-mon* 10087  EPL : Device not found  Server fault on msg pass
+Jan 01 00:00:33.125               devg_nvmap.16398           devg-nvmap  10040  nvmap_close_ocb: Invalid close access
+Jan 01 00:00:33.125                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 20560 
+Jan 01 00:00:33.125                io_nvdvms.12294            io-nvdvms  10065  nvdvms_resmgr_close_dup: Process terminated. Pid : : 20559 
+Jan 01 00:00:33.125   devg_nvgpu_igpu_mon.20559..0                 slog      0  nvgpu_mon:                    nvgpu_mon_main:685  [ERR ] Unable to close /dev/nvgpu/igpu0/mon
+Jan 01 00:00:33.136             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.138             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.139             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.140             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.141             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.143             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:00:33.144              devm_cami2c.16420          devm-cami2c  10031  Failed to open: invalid state
+Jan 01 00:00:33.145              devm_cami2c.16419          devm-cami2c  10031  Failed to open: invalid state
+Jan 01 00:00:33.147                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.148                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.149                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.150                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.152                io_nvgpio.16417            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.153                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.155                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.156                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.157                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.159                io_nvgpio.16415            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.160                io_nvgpio.16415            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.162                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.164                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.165                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.166                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.167                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.169                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:00:33.170                 io_nvi2c.16411             io-nvi2c* 10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:00:33.172                 io_nvi2c.16410             io-nvi2c* 10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:00:33.173                 io_nvi2c.16409             io-nvi2c* 10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:00:33.174        devc_nvvse_safety.16402    devc-nvvse-safety*    41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.175        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.176        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.177        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.179        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.180        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.181        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.182        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.183        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.185        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.186        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.188        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.189        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.190        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.191        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.192        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.193        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.195        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.196        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.197        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.198        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.199        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.201        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.202        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.203        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.205        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.206        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.207        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.208        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.209        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.210        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.212        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.213        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.214        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.215        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.216        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.217        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.218        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.219        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.220        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.222        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.223        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.224        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.225        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.226        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.227        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.229        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:00:33.230              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:00:33.231              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:00:33.232              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:00:33.233              devg_nvhost.16400          devg-nvhost  10039  Waiter FD open: unable to open device
+Jan 01 00:00:33.235              devg_nvhost.16400          devg-nvhost  10039  Syncpt FD open: unable to open device
+Jan 01 00:00:33.236              devg_nvhost.16400          devg-nvhost  10039  Ctrl FD open: unable to open device
+Jan 01 00:00:33.237                 NvFsiCom.16401             NvFsiCom* 10087  FSICOM: Open Invalid VM state 
+Jan 01 00:00:33.238               devg_nvmap.16398           devg-nvmap  10040  nvmap_ocb_calloc_validate: Invalid open access
+Jan 01 00:00:33.238               devg_nvmap.16398           devg-nvmap  10040  nvmap_ocb_calloc: nvmap_ocb_calloc_validate failed
+Jan 01 00:00:33.240               io_nvclock.16399           io-nvclock  10020  nvclock_open: Not permitted in the VM state of: 4 
+Jan 01 00:00:33.241             io_nvbpmpivc.16397         io-nvbpmpivc  10011  NVBPMPIVC: open: Invalid vm state
+Jan 01 00:01:50.933            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: nvdvms_pkg.check_init_api failed
+Jan 01 00:01:50.933            io_nvi2c_bpmp.24660        io-nvi2c-bpmp  10006  i2c: Open_Handler: Not Init state
+Jan 01 00:01:50.936               devg_nvmap.16398           devg-nvmap  10040  nvmap_ioctl: Invalid interface access for cmd : -1071119088 
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  NvRmMemHandleAllocAttr failed: 326 
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Memory allocation failed
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to allocate segment memory
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Writing bin_info failed
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD ELF
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD VPU ELF
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  Failed to load PFSD ELF
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  failed to initialize PVA PFSD task data
+Jan 01 00:01:50.936            devg_nvpva_v2.20562        devg-nvpva-v2  10054  PVA CTRL: (FAIL) allocate client context
+Jan 01 00:01:50.938            devg_nvdla.20561..0                 slog      0  nvdla: nvdla_queue_release_handler: Invalid API state
+Jan 01 00:01:50.938            devg_nvdla.20561..0                 slog      0  nvdla: nvdla_queue_release_handler: Invalid API state
+Jan 01 00:01:50.944             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.946             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.947             devm_camgpio.16422         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.949             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.950             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.951             devm_camgpio.16421         devm-camgpio  10031  Failed to open: invalid state
+Jan 01 00:01:50.952              devm_cami2c.16420          devm-cami2c  10031  Failed to open: invalid state
+Jan 01 00:01:50.954              devm_cami2c.16419          devm-cami2c  10031  Failed to open: invalid state
+Jan 01 00:01:50.955                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.956                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.957                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.959                io_nvgpio.16418            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.960                io_nvgpio.16417            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.962                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.963                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.964                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.965                io_nvgpio.16416            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.967                io_nvgpio.16415            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.968                io_nvgpio.16415            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.970                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.971                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.972                io_nvgpio.16414            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.974                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.975                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.977                io_nvgpio.16412            io-nvgpio  10019  nvgpio_open: Open is allowed in Init state only
+Jan 01 00:01:50.978                 io_nvi2c           io-nvi2c  10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:01:50.979                 io_nvi2c.16410             io-nvi2c  10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:01:50.981                 io_nvi2c.16409             io-nvi2c  10006  NATIVE_I2C: VM is invalid state for INIT ONLY API
+Jan 01 00:01:50.982        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.983        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.984        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.985        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.986        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.987        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.988        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.990        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.991        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.992        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.993        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.995        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.996        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.997        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:50.998        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.000        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.001        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.002        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.003        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.004        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.005        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.006        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.008        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.009        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.010        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.011        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.013        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.014        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.015        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.016        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.017        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.018        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.019        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.021        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.022        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.023        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.024        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.025        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.026        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.028        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.028        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.030        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.031        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.032        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.033        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.034        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.036        devc_nvvse_safety.16402    devc-nvvse-safety     41  nvvse_open_override : devctl failed as system is not in init state
+Jan 01 00:01:51.037              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:01:51.038              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:01:51.039              devg_nvhost.16400          devg-nvhost  10039  Channel FD open: unable to open device
+Jan 01 00:01:51.040              devg_nvhost.16400          devg-nvhost  10039  Waiter FD open: unable to open device
+Jan 01 00:01:51.041              devg_nvhost.16400          devg-nvhost  10039  Syncpt FD open: unable to open device
+Jan 01 00:01:51.043              devg_nvhost.16400          devg-nvhost  10039  Ctrl FD open: unable to open device
+Jan 01 00:01:51.044                 NvFsiCom.16401             NvFsiCom  10087  FSICOM: Open Invalid VM state 
+Jan 01 00:01:51.045               devg_nvmap.16398           devg-nvmap  10040  nvmap_ocb_calloc_validate: Invalid open access
+Jan 01 00:01:51.045               devg_nvmap.16398           devg-nvmap  10040  nvmap_ocb_calloc: nvmap_ocb_calloc_validate failed
+Jan 01 00:01:51.046               io_nvclock.16399           io-nvclock  10020  nvclock_open: Not permitted in the VM state of: 4 
+Jan 01 00:01:51.047             io_nvbpmpivc.16397         io-nvbpmpivc  10011  NVBPMPIVC: open: Invalid vm state
+Jan 01 00:02:13.554               io_nvclock.16399           io-nvclock  10020  nvclock_open: Not permitted in the VM state of: 4 
+Jan 01 00:02:13.555        nvsipl_sample.725071..0        nvsipl_sample* 10031  CNvMCamera.cpp: 381 
+Jan 01 00:02:13.555                      Epd.12297                  Epd  10087  EPD: Open Invalid VM state Pid:: 725071 
+Jan 01 00:02:13.555        nvsipl_sample.725071..0        nvsipl_sample  10031  System is not in required state, rejecting
+Jan 01 00:02:13.555        nvsipl_sample.725071..0        nvsipl_sample  10087  EPL : Device not found  Server fault on msg pass
+Jan 01 00:02:19.236               io_nvclock.16399           io-nvclock  10020  nvclock_open: Not permitted in the VM state of: 4 
+Jan 01 00:02:19.237        nvsipl_sample.733263..0        nvsipl_sample* 10031  CNvMCamera.cpp: 381 
+Jan 01 00:02:19.237        nvsipl_sample.733263..0        nvsipl_sample  10031  System is not in required state, rejecting
+Jan 01 00:02:19.238                      Epd.12297                  Epd  10087  EPD: Open Invalid VM state Pid:: 733263 
+Jan 01 00:02:19.238        nvsipl_sample.733263..0        nvsipl_sample  10087  EPL : Device not found  Server fault on msg pass
+Jan 01 00:02:20.458               io_nvclock.16399           io-nvclock  10020  nvclock_open: Not permitted in the VM state of: 4 
+Jan 01 00:02:20.459        nvsipl_sample.741455..0        nvsipl_sample* 10031  CNvMCamera.cpp: 381 
+Jan 01 00:02:20.459        nvsipl_sample.741455..0        nvsipl_sample  10031  System is not in required state, rejecting
+Jan 01 00:02:20.460        nvsipl_sample.741455..0        nvsipl_sample  10087  EPL : Device not found  Server fault on msg pass
+Jan 01 00:02:20.460                      Epd.12297                  Epd  10087  EPD: Open Invalid VM state Pid:: 741455 
+Jan 01 04:30:05.616              ist_client.512091           ist_client* 10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:05.616              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:05.616              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:05.616              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:05.616              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:06.617              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:07.618              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:08.619              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:09.621              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:10.623              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:11.625              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:12.626              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:13.627              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:14.628              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:15.630              ist_client.512091           ist_  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:15.630              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:16.632              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:17.633              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:18.634              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:19.636              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:20.637              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:21.639              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:22.641              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:23.642              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:24.644              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:25.645              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:26.646              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:27.648              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:28.649              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_send_results_inner
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_init
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_IPC_init
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10008  scievt_err: NvSciEventLoopServiceCreateSafe: nvdvms_check_init_api failed: 33 
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [ERROR-IPC] ISTClient_mcc_IPC_init(): NvSciEventLoopServiceCreateSafe() error: 0x00000000000021
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10008  error: NvSciIpcCloseEndpointSafe: nvdvms_check_init/deinit_api failed
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10008  error: NvSciIpcDeinit :nvdvms_check_init/deinit_api failed
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_IPC_init(): [NULL]
+
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_init(): ISTClient_mcc_IPC_init() ==> [NULL]
+
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [==>] ISTClient_mcc_deinit
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_deinit : 0
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_init(): [NULL]
+
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [ERROR] ISTClient_mcc_send_results_inner() : ISTClient_mcc_init(...) ==> NULL
+
+Jan 01 04:30:29.651              ist_client.512091           ist_client  10036  [<==] ISTClient_mcc_send_results_inner : -22
+# 2024-05-29 06:07:41,663 [INFO] cli_handler - Version Details: SWUT 7.1.4 OneDad 1.8.2 DAL 4.0.37 IA 10.1.0 UDS 4.2.1 
+2024-05-29 06:07:41,668 [INFO] cli_handler - Command: ['send_did', '-e', '1fff', '-ip', '169.254.4.10', '-r', '1101']
+2024-05-29 06:07:41,672 [INFO] cli_handler - Session ID: 820700772a78031a1a90b8324b26a62a4c2859a9f80db223deadcbf5f613e379
+====================================================================================================
+======================================== 2024-05-29 06:07:50 =======================================
+====================================================================================================
+2024-05-29 06:07:50,711 [INFO] diagnostics - Request: 11 01 to 0x1D0E (HIB)
+
+Raw response: 51 01
+
+Response time: 21 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D0D (HIA)
+
+Raw response: 51 01
+
+Response time: 19 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D1A (LPA)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D12 (HPA)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D24 (SGA)
+
+Raw response: 51 01
+
+Response time: 12 ms
+
+Interpretation:
+
+
+
+Wed May 29 06:12:22 UTC 2024
+Wed May 29 06:12:37 UTC 2024
+Wed May 29 06:12:39 UTC 2024
+Wed May 29 06:17:27 UTC 2024
+2024-05-29 06:17:29,376 [ERROR] cli_handler - Bad Argument Error: Check the arguments!
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/argparse.py", line 1812, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/usr/lib/python3.8/argparse.py", line 2000, in _parse_known_args
+    positionals_end_index = consume_positionals(start_index)
+  File "/usr/lib/python3.8/argparse.py", line 1977, in consume_positionals
+    take_action(action, args)
+  File "/usr/lib/python3.8/argparse.py", line 1870, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/usr/lib/python3.8/argparse.py", line 2411, in _get_values
+    self._check_value(action, value[0])
+  File "/usr/lib/python3.8/argparse.py", line 2458, in _check_value
+    raise ArgumentError(action, msg % args)
+argparse.ArgumentError: invalid choice: 'swut' (choose from 'start_interactive_cli_mode', 'icli', 'connect', 'disconnect', 'list', 'download_swat_baseline', 'swat_baseline_download', 'dsb', 'sbd', 'download_custom_files', 'custom_files_download', 'dcf', 'cfd', 'download_confighub_baseline', 'dcb', 'get_vehicle_readout_report', 'get_installation_instruction', 'change_como_settings', 'test_object_readout', 'send_request', 'send_did', 'run_sequence_file', 'unlock_ecu', 'validate_baseline_in_test_object', 'change_qualifiers', 'change_domain', 'change_swut_mode', 'set_post_swdl_validation', 'change_server_address', 'change_tobs_server_address', 'set_dry_run_parameters', 'set_artifactory_props', 'get_exit_code_description', 'part_number_search', 'share_logs', 'set_logs_folder', 'load_sddb', 'update')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/python3.8/lib/python3.8/site-packages/swut/cli/cli_handler.py", line 104, in execute_cli_command
+    args = argument_parser(argv[1:])
+  File "/opt/python3.8/lib/python3.8/site-packages/swut/cli/argument_parser.py", line 1710, in argument_parser
+    return convert_deprecated_interfaces_to_new_interfaces(parser.parse_args(run_args))
+  File "/usr/lib/python3.8/argparse.py", line 1780, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/usr/lib/python3.8/argparse.py", line 1819, in parse_known_args
+    self.error(str(err))
+  File "/usr/lib/python3.8/argparse.py", line 2533, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/usr/lib/python3.8/argparse.py", line 2520, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+2024-05-29 06:17:29,572 [ERROR] main - SWUT failed with exit code: 10 (bad_argument)
+Wed May 29 06:17:30 UTC 2024
+Wed May 29 06:17:57 UTC 2024
+2024-05-29 06:17:59,416 [INFO] cli_handler - Version Details: SWUT 7.1.4 OneDad 1.8.2 DAL 4.0.37 IA 10.1.0 UDS 4.2.1 
+2024-05-29 06:17:59,420 [INFO] cli_handler - Command: ['send_did', '-e', '1fff', '-ip', '169.254.4.10', '-r', '1101']
+2024-05-29 06:17:59,422 [INFO] cli_handler - Session ID: 245a5927c801c70814abfdb5885ec83c182b1ff87e9ce617953fa388d2adf576
+====================================================================================================
+======================================== 2024-05-29 06:18:08 =======================================
+====================================================================================================
+2024-05-29 06:18:08,408 [INFO] diagnostics - Request: 11 01 to 0x1D0D (HIA)
+
+Raw response: 51 01
+
+Response time: 18 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D0E (HIB)
+
+Raw response: 51 01
+
+Response time: 17 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D1A (LPA)
+
+Raw response: 51 01
+
+Response time: 17 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D12 (HPA)
+
+Raw response: 51 01
+
+Response time: 16 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D24 (SGA)
+
+Raw response: 51 01
+
+Response time: 11 ms
+
+Interpretation:
+
+
+
+Wed May 29 06:18:12 UTC 2024
+Wed May 29 06:20:05 UTC 2024
+Wed May 29 06:20:07 UTC 2024
+Wed May 29 06:20:25 UTC 2024
+Wed May 29 06:20:28 UTC 2024
+Wed May 29 06:20:46 UTC 2024
+2024-05-29 06:20:48,597 [INFO] cli_handler - Version Details: SWUT 7.1.4 OneDad 1.8.2 DAL 4.0.37 IA 10.1.0 UDS 4.2.1 
+2024-05-29 06:20:48,600 [INFO] cli_handler - Command: ['send_did', '-e', '1fff', '-ip', '169.254.4.10', '-r', '1101']
+2024-05-29 06:20:48,602 [INFO] cli_handler - Session ID: d7743269a5a992858a4f743f39fb074ff3be01c3bec1cb508c8a3c41874ab028
+====================================================================================================
+======================================== 2024-05-29 06:20:57 =======================================
+====================================================================================================
+2024-05-29 06:20:57,610 [INFO] diagnostics - Request: 11 01 to 0x1D0E (HIB)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D0D (HIA)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D1A (LPA)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D12 (HPA)
+
+Raw response: 51 01
+
+Response time: 15 ms
+
+Interpretation:
+
+====================================================================================================
+
+Request: 11 01 to 0x1D24 (SGA)
+
+Raw response: 51 01
+
+Response time: 11 ms
+
+Interpretation:
+
+
+
+Wed May 29 06:21:01 UTC 2024
+HIC_V.txt
+MyCommander.py
+NodeWorker
+NodeWorker¨
+SWUT_WORKSPACE
+Tester_present_3e00.seq
+aosmani
+cleanup.sh
+cron_cleanup.log
+diagnostics_tester_emulator
+ganesh
+hpb_dlt.dlt
+hpb_images.tar.gz
+ievgen_hpb
+ikoloshy
+image_20240527_113150.tar.gz
+image_20240527_113248.tar.gz
+ishepeli
+jaldiwan
+jjoha217
+logCollector.log
+michael
+minicom.log
+moloko
+nhanss15
+nsolonko
+recovery
+tharindup
+time_example_cxx
+valeksan
+vcc_patched
+workspace
+ynikishy
+ytarhuna
+~
+Wed May 29 09:00:20 UTC 2024

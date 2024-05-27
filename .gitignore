@@ -1,0 +1,5 @@
+/build/
+/dist/
+/env/
+/.venv/
+/resources/PayL*
