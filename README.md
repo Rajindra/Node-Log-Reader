@@ -31,5 +31,5 @@ Node Log Reader is a PyQt6-based GUI tool for executing remote commands and coll
 
 1. Navigate to the `dist` directory and run the executable:
     ```sh
-    dist\Ikman\NodeLogReader.exe
+    dist\Ikman\Ikman.exe
     ```
