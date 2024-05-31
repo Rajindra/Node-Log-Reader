@@ -6,9 +6,10 @@ import paramiko
 from scp import SCPClient
 import logging
 import time
-from utils import load_rig_list 
+from utils import load_rig_list, extract_number_from_hostname
 import logging
 import logging_config
+from rig_info import get_rig_info_string
 
 local_output_file_path = r'logCollector.log'
 hi_comander_path = '/home/hiluser/recovery'
@@ -162,7 +163,13 @@ class ExecutorManager(QWidget):
         self.host_name.setEditable(True)
         rig_list = load_rig_list()
         self.host_name.addItems(rig_list)
+        self.host_name.currentIndexChanged.connect(self.on_hostname_changed)
         self.layout.addWidget(self.host_name)
+
+        self.rig_info_label = QLabel("Retrieve rig information.")
+        self.rig_info_label.setWordWrap(True)
+        #self.rig_info_label.setAlignment(Qt.AlignLeft | Qt.AlignTop)
+        self.layout.addWidget(self.rig_info_label)
 
         self.user_name = QComboBox()
         self.user_name.setEditable(True)
@@ -204,6 +211,13 @@ class ExecutorManager(QWidget):
         self.layout.addWidget(self.progressBar)
 
         self.setLayout(self.layout)
+
+    def on_hostname_changed(self, index):
+        # Get the current text from the combo box
+        rig_number = extract_number_from_hostname(self.host_name.currentText())
+        current_text = get_rig_info_string(rig_number)
+        # Update the label with the current text
+        self.rig_info_label.setText(f"Selected: {current_text}")
 
     def onButtonClick(self):
         username = self.user_name.currentText()

@@ -1,4 +1,5 @@
 from paramiko import SSHClient, AutoAddPolicy
+import re
 
 def get_remote_files(dir_path='.'):
     client = SSHClient()
@@ -30,3 +31,10 @@ def load_rig_list():
         return []
     
 # Get node list ls /dev/ | grep -E 'ttyUSB';
+
+def extract_number_from_hostname(input_string):
+    match = re.search(r'\d+', input_string)
+    if match:
+        return match.group(0)
+    else:
+        return None
