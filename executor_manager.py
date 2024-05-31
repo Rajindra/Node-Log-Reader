@@ -7,14 +7,12 @@ from scp import SCPClient
 import logging
 import time
 from utils import load_rig_list 
+import logging
+import logging_config
 
 local_output_file_path = r'logCollector.log'
 hi_comander_path = '/home/hiluser/recovery'
 remote_script_path = '/home/hiluser/MyCommander.py'
-
-# Configure logging
-logging.basicConfig(filename='application.log', level=logging.INFO,
-                    format='%(asctime)s:%(levelname)s:%(message)s')
 
 class SSHWorker(QThread):
     progressChanged = pyqtSignal(int)

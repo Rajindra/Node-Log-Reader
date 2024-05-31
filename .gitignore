@@ -5,3 +5,4 @@
 /resources/PayL*
 /__pycache__/
 application.log
+logCollector.log
