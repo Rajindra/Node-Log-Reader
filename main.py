@@ -3,7 +3,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QPushButton,
 from PyQt6.QtGui import QIcon, QDragEnterEvent, QDropEvent, QDrag
 from PyQt6.QtCore import Qt, QMimeData, QSize
 from hil_rig_manager import HILRigManager
-from ExecutorManager import ExecutorManager
+from executor_manager import ExecutorManager
 
 class DraggableLabel(QLabel):
     def __init__(self, *args, **kwargs):
