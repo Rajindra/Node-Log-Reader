@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['NodeLogReader.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[
